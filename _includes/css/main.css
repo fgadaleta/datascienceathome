@@ -184,7 +184,7 @@ header .author {
 }
 
 .navbar-header{
- background: url('/img/logos/dsh_logo_dark.png') left center no-repeat;
+ background: url('/img/logos/dsh_logo_darker.png') left center no-repeat;
  background-size: 250px Auto;
  min-width: 250px;
 }
@@ -546,6 +546,13 @@ and (max-device-width : 320px)
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 {
+  .navbar-header{
+   background: url('/img/logos/dsh_logo_darker_textonly.png') left center no-repeat;
+   background-size: 250px Auto;
+   min-width: 250px;
+  }
+
+
 	.podcast-info {
 	  margin-top: -20px;
 	  text-align: center;
