@@ -1,0 +1,63 @@
+==================================================================
+https://keybase.io/fragadaleta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://worldofpiggy.com
+  * I am fragadaleta (https://keybase.io/fragadaleta) on keybase.
+  * I have a public key with fingerprint 3CB8 C721 FE99 BC98 38DC  F463 BFDC E4EC CE3B 7327
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0111f5042d99ea97699ac01625d4de0350d0df79698a88208500898a6c29e8e285440a",
+            "fingerprint": "3cb8c721fe99bc9838dcf463bfdce4ecce3b7327",
+            "host": "keybase.io",
+            "key_id": "bfdce4ecce3b7327",
+            "kid": "0111f5042d99ea97699ac01625d4de0350d0df79698a88208500898a6c29e8e285440a",
+            "uid": "d671939b35fdec7f0e35e3fd3fbe1c19",
+            "username": "fragadaleta"
+        },
+        "service": {
+            "hostname": "worldofpiggy.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480611915,
+    "expire_in": 157680000,
+    "prev": "f02e8794341e708ff8b11441efa2b02e099e9586a3869e0d474e4c4d3d756e9e",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4
+Comment: GPGTools - http://gpgtools.org
+
+owGtUj2IFDEUHtcfcEHw4KyFNNcsRzJJJsnYCILXXmFxjQ75eZmNtzczzszuuRxn
+fVrZKF4h1nai9aEo2AjX2VlY2Aj2tmaWs7M0TfLyvu9733u8p1fOJ6O1999+/Dq9
+0W2c+/LTJDs3d7YPkKndEuUHaBdWF8wcdH2xGxzKESaEeI5Z6pQCrUSmlLaYZCl3
+zAGmHDvsvFCZklrKFEuOsYzvzKYKJKSSM4Y1miAfqhLapg1VH2WpNdKKlHhQylgl
+qXTWs4wa7ywwsBaoETQVkTitu4ERzRndwWao418MipW9f+D/s+/5Ss5lgiiqDOXe
+gRUeA+VAvaPeALFEDcAO2krvQUT7Vpfa6Rn0Gh1OUEwsgoVhtkMzZ6D9up252jeh
+LJebtt6LEk1b97WtZzE77fsmH8j9slmhwRRnOoUJlYvTjIQFtF2oK5STiLR9GIQJ
+kzgjRBE+QfCwCS0UYUBwkUkcz1AGFoPLezgFKRSjjIDA0ntpCGEx8Do1MYfj6BSX
+maYyU4AdEwyYZY46wTNQgIbWHlQ1ylX0qcuo2YWy0v28BXQ4Prp9IVkbJZcujoY1
+S8aXr/7dvWv3k5fryYdHvx+Px9dPpx8/v7h7/ObO91HyavvW1km+Pn/yunh38vbr
+p6Pnx/2zPw==
+=NhJp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fragadaleta
+
+==================================================================

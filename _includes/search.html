@@ -1,0 +1,96 @@
+<style>
+.cse .gsc-search-button input.gsc-search-button-v2,
+		input.gsc-search-button-v2 {
+			  width: 75px;
+			  height: 30px;
+			  padding: 6px 27px;
+			  /*! min-width: 13px; */
+			  margin-top: 2px;
+			  visibility: hidden;
+			  }  
+			  
+ .gsib_a, .gsib_b {
+    border: 0px;
+    vertical-align: top;
+}
+
+input.gsc-input {
+    font-size: 16px;
+    padding: 4px 9px;
+    border: 1px solid #D9D9D9;
+    width: 99%;
+    min-height: 21px;
+    visibility: hidden;
+}
+
+.gsib_a {
+    width: 100%;
+    padding: 0;
+}
+
+  </style>
+
+
+<!-- Search Section -->
+<section id="blog">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{{ page.title }} </h2>
+                    <h3>{{ page.subtitle }} </h3>
+                    <p>Search the World of Piggy with the best search engine in the world </p>
+                    <hr class="star-primary">
+                </div>
+            </div>
+        
+
+
+<!-- search form -->
+<div class="row">   
+ <div class="col-lg-12">  
+	<div id="search" align="center" style="margin-top:20px;">
+	  <form role="search" method="get" action="/search/" class="form-inline">
+	     <div class="form-group">
+	       <input style="height:36px;font-size:12pt;width: 60%"; id="searchString" name="searchString"
+		      placeholder="Search on World of Piggy..." type="text">
+	       <input style="min-width: 100px; width: 20%; float:right;" class="btn" id="searchButton" name="googleSearchName" type="submit" value="Search">
+	     </div>  
+	  </form>
+	</div>
+ </div>
+</div>
+
+<div class="row">   
+ <div class="col-lg-12">  
+	
+
+<script>
+  (function() {
+    var cx = '005654793342962245900:5ohztnzasfm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search queryParameterName="searchString"></gcse:search>
+     <!-- <gcse:searchresults-only></gcse:searchresults-only> -->
+
+
+
+
+
+ </div>
+</div>
+
+
+</div> <!-- container -->
+
+</section>
+
+
+
+
+

@@ -1,0 +1,35 @@
+<div style="display:None;">
+
+<div id="chat" onClick="check_success(); open_chatbox();"> Chat with Piggy <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+ <div id="chatBox">
+ 	<div id="title">
+ 		<div style="padding-left: 24px; float:left; margin:-5px;">
+ 		   <div id='title_text'>Chat </div>
+ 		   <div id='subtitle'>Piggy the bot </div>
+
+ 		</div>
+ 		  <div onclick="closeChat()" id='closeIt'>-</div>
+ 	</div> 
+<!-- 	<div onclick="closeChat()" id="close">x</div> -->
+  
+  <!-- 
+  <img style="visibility:hidden" id='check_pic' src="/images/piggy_profile.png" onabort="alert('interrupted')" onload="check_success('http://141.135.41.108:4001')" onerror="check_available('141.135.41.108:4001')"/>
+  -->
+  
+  <div id="chatstatus">
+    <img src="img/piggy.png" id="profilepic" style="margin-left: 8px;"/> 
+    <div id="textstatus">
+    	  Hi! I am currently not connected to my brain... I must be sleeping. 
+    	  I hope you don't mind to come back later :)
+    </div>
+  </div>
+    
+  <object type="text/html" data="http://localhost:4001" id="embedded" ></object>
+  
+ </div>
+ 
+ 
+ 
+ </div>

@@ -1,0 +1,148 @@
+<script src="{{ "/js/audio/jquery.js" }}"></script> 
+<script src="{{ "/js/audio/audio.js" }}"></script>
+<script>
+  	audiojs.events.ready(function() {
+    	var as = audiojs.createAll();
+  	});
+</script>
+
+ <style>
+    .audiojs {width: 700px; height: 36px; float:left;}
+    .audiojs .scrubber { position: relative; float: left; width: 480px; background: #5a5a5a; height: 14px; margin: 10px; border-top: 1px solid #3f3f3f; border-left: 0px; border-bottom: 0px; overflow: hidden; } 
+      
+      
+        /* iphone5 */
+      @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+        .audiojs {width: 310px; height: 36px;}
+        .audiojs .scrubber { position: relative; float: left; width: 150px; background: #5a5a5a; height: 14px; margin: 10px; border-top: 1px solid #3f3f3f; border-left: 0px; border-bottom: 0px; overflow: hidden; } 
+        ol { padding: 0px; margin: 0px; list-style: decimal-leading-zero inside; color: #ccc; width: 320px; border-top: 1px solid #ccc; font-size: 0.9em; }
+        ol li a { width: 300px; display: block; text-indent: 0ex; padding: 0px 10px 0px 0px; }
+        #wrapper { width: 320px; position: relative; left: -3%; }
+        #shortcuts { display: none; }
+      }
+      
+      /* iphone6 */
+      @media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+        .audiojs {width: 370px; height: 36px;}
+        .audiojs .scrubber { position: relative; float: left; width: 150px; background: #5a5a5a; height: 14px; margin: 10px; border-top: 1px solid #3f3f3f; border-left: 0px; border-bottom: 0px; overflow: hidden; } 
+        ol { padding: 0px; margin: 0px; list-style: decimal-leading-zero inside; color: #ccc; width: 320px; border-top: 1px solid #ccc; font-size: 0.9em; }
+        ol li a { max-width: 300px; display: block; text-indent: 0ex; padding: 0px 10px 0px 0px; }
+        #wrapper { width:400px; position: relative; left: -3%; }
+        #shortcuts { display: none; }
+      }
+      
+      /* ipad */
+      @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+        .audiojs {width:700px; height: 42px;}
+        .audiojs .scrubber { position: relative; float: left; width: 450px; background: #5a5a5a; height: 14px; margin: 10px; border-top: 1px solid #3f3f3f; border-left: 0px; border-bottom: 0px; overflow: hidden; } 
+        ol { padding: 0px; margin: 0px; list-style: decimal-leading-zero inside; color: #ccc; width: 700px; border-top: 1px solid #ccc; font-size: 0.9em; }
+        #wrapper { width: 700px; }
+        #shortcuts { display: none; }
+      }
+      
+      
+      
+</style>      
+   
+   
+<!-- Podcast Grid Section -->
+
+<section id="blog">
+    
+    <div class="container">
+         <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>{{ page.title }} </h2>  
+                  <h3>{{ page.subtitle }} </h3>
+
+                  <hr class="star-primary">
+               </div>
+         </div>            
+               
+
+
+     <div class="row">
+     	<div class="col-lg-3 text-center">
+     	<a href="/{{site.podcast.url}}"><i class="fa fa-arrow-left fa-3x" aria-hidden="true" style="display:block;"></i></a>Back to episodes
+	  <div style="height:42px; width:100%; clear:both;"></div> 
+        </div>
+        
+        <div class="col-lg-9">
+        </div>
+    </div>
+
+
+     <div class="row">
+     	<div class="col-lg-3 podcast-info">
+	  <h3> Listen now </h3> 
+	  <div class="smaller-text">
+	    <p><small>{{ page.date | date: '%B %d, %Y' }}</small></p>
+	    <p><small>by <strong>{{ site.author }} </strong> </small></p>
+	    <p>
+	       <small>Produced by: {% if page.producer %} {{ page.producer }} {% else %} {{ site.author }} {% endif %}             </small>
+	    </p> 	
+ 	    <!-- <p><small>Episode about: {% for tag in page.keywords %} {{ tag }} {% endfor %} </small></p> -->
+  	 </div>
+     	</div>
+     	
+     
+        <div class="col-lg-9">
+            <center><audio src="{{ page.media }}"  preload="auto" /></audio> </center>
+        </div>
+     </div> <!-- row -->
+
+
+	<div class="row">
+		<div class="col-lg-3">
+		 	<h3> Support us </h3> 
+		 	Did you like the show? <br />
+		 	Please support us with a small donation. We will really appreciate!
+		 	<!-- Paypal form -->
+			<br /> <br />
+			<center>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick" style='border-width:1px'/>
+			<input type="hidden" name="hosted_button_id" value="JMPVBRFPYJ5H4" />
+			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" 				border="0" name="submit" title="PayPal - The safer, easier way to pay online!" 			alt="Donate" />
+			<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="0" 				height="1" />
+			</form>
+			</center>
+			<!-- end of Paypal form -->
+	
+		
+		</div>
+
+		<div class="col-lg-9">
+		     {{ content }}
+		</div>
+	</div> <!-- row -->
+
+
+	<div class="row">
+		<div class="col-lg-3">
+		</div>
+
+		<div class="col-lg-9">
+		{% if page.comments %}
+			<div class="disqus-comments">
+			    {% include disqus.html %}
+			</div>
+		{% endif %}
+		</div>
+	</div> <!-- row -->
+
+
+</div> <!-- container -->
+
+</section>
+
+
+
+
+  	

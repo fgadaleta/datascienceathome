@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    
+    <div style="height:150px; width:100%; clear:both;"></div>
+    
+    
+    
+ <div class="container" role="main">
+ 
+ <div class="row">
+    <div class="col-lg-16 text-center">
+      <h1>{{ page.title }}</h1>
+      <h3>{{ page.subtitle }}</h3>
+      
+      <hr class="star-primary">
+    </div>
+ </div>
+            
+  <div class="row">
+    <div class="col-lg-16">
+      {{ content }}
+      {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+     </div>
+   </div>
+ </div>
+   <div style="height:200px; width:100%; clear:both;"></div>
+   
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    {% include privy_popup.html %}
+    {% include analytics.html %}
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+
+    <body id="page-top" class="index">
+    {% include nav.html %}
+
+ <div style="height:150px; width:100%; clear:both;"></div>    
+
+ <div class="container" role="main">
+ <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>{{ page.title }}</h2>
+      <hr class="star-primary">
+    </div>
+ </div>
+            
+  <div class="row">
+    <div class="col-lg-12">
+      {{ content }}
+      
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          Tags: 
+          {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="/tag/#{{ tag }}" class="tag fa fa-tag">{{ tag }}</a>
+          {% endfor %}
+          {% else %}
+            {{ page.tags | join: ", " }}
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      {% if page.comments %}
+        <div class="disqus-comments">
+	    {% include disqus.html %}
+        </div>
+      {% endif %}
+     </div>
+     
+<!-- Paypal form --> 
+    <div class="row">
+    <div class="col-lg-12">
+	    {% include paypal_donate.html %}
+     </div>
+     </div>
+<!-- end of Paypal form -->
+     
+     
+     
+     
+     <ul class="pager blog-pager">
+        {% if page.previous.url %}
+        <li class="previous">
+          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+     
+   </div>
+ </div>
+ 
+   
+   <div class="container">
+    <div class="row">
+           <div class="col-lg-12">
+           </div>
+   </div>
+</div>
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    {% include privy_popup.html %}
+	
+    {% include analytics.html %}
+    </body>
+</html>
+
+
