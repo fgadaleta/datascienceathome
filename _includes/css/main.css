@@ -184,7 +184,7 @@ header .author {
 }
 
 .navbar-header{
- background: url('/img/logos/dsh_logo_darker.png') left center no-repeat;
+ background: url('/img/logos/dsh_logo_darker_trans.png') left center no-repeat;
  background-size: 250px Auto;
  min-width: 250px;
 }
@@ -547,7 +547,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 {
   .navbar-header{
-   background: url('/img/logos/dsh_logo_darker_textonly.png') left center no-repeat;
+   background: url('/img/logos/dsh_text_trans.png') left center no-repeat;
    background-size: 250px Auto;
    min-width: 250px;
   }
