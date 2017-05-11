@@ -6,9 +6,9 @@ type: project
 date: 2016-08-05
 img: tree.png
 alt: image-alt
-#project-date: NA 
+#project-date: NA
 #client: NA
-category: Consultancy
-title: Consultancy
-description: I can provide technical consulting regarding data science, deep learning, computing architectures and  the most prominent software packages currently available. My skills in distributed infrastructure are essential to give the insights you need to start your own data analytics pipeline in the most optimized and efficient environment. Feel free to schedule a meeting with me
+category: intelligence
+title: Deep Learning
+description: We provide technical consulting regarding artificial intelligence and deep learning together with the computing architectures and  the most prominent software packages that are currently available. Our expertise in distributed systems is essential to give the insights one needs to get started with a customized data analytics pipeline in the most optimized and efficient environment. Contact us!
 ---

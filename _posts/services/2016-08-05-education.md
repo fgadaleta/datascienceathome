@@ -6,13 +6,8 @@ type: project
 date: 2016-08-05
 img: books.png
 alt: image-alt
-client: 
-category: Training
+client:
+category: training
 title: Technical training
-description: I provide high quality training on statistics, data science, computer programming, in order to facilitate setting data analytics pipelines in the most optimized and cost effective ways. Feel free to schedule a meeting with me 
+description: We provide high quality training for statistics, computer programming, data science and machine learning in order to facilitate setting data analytics pipelines in the most optimized and cost effective ways. We allow professionals to get started with data analysis for small and large enterprises. Contact us!
 ---
-
-
-
-
-
