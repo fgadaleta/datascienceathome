@@ -3,16 +3,16 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                	
+
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
                         	{% for adress in site.address %}
                             	<p>
-                                <a href="{{ adress.url }}" class="btn-world" style="text-decoration: none;">  {{ adress.line }} </a> 
+                                <a href="{{ adress.url }}" class="btn-world" style="text-decoration: none;">  {{ adress.line }} </a>
                                 </p>
 		                {% endfor %}
                     </div>
-                 
+
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
@@ -22,16 +22,16 @@
                             </li>
 		                    {% endfor %}
                         </ul>
-			  
-			    
+
+
                     </div>
-                    
+
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.credits }}</h3>
                         {% for cred in site.credits %}
                         <p>{{ cred.line }}</p>
                         {% endfor %}
-                        Made in <i class="fa fa-tint" aria-hidden="true"></i> Belgium
+                        Made with <i class="fa fa-heart-o" aria-hidden="true"></i> in Europe
                     </div>
                 </div>
             </div>

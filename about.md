@@ -46,29 +46,28 @@ If you are interested in hiring me for speaking, writing, machine learning and a
 
 Academic background and on site experience provided me of the most powerful theoretical and practical tools for data analysis, such as
 
--  Neural Networks and Deep Learning
--  Non-linear dynamics
--  Penalised regression methods
--  Bayesian statistics
--  LASSO and variants
--  and much more
+- Neural Networks and Deep Learning
+- Non-linear dynamics
+- Penalised regression methods
+- Bayesian statistics
+- LASSO and variants
+- and much more
 
 Languages I am fluent in comprise  
 - C/C++, PHP, SQL, Perl, Lisp
 - Python, R, Java
+- and more
 
-and some computing infrastructure I regularly use are
+and some computing infrastructure I use with regularity
 - Virtualization technology (Virtualbox, VMWare, Xen, Docker)
 - Amazon Web Service (AWS)
 - Spark/Hadoop
-- and designing of large information systems for the enterprise.
 
-Last but not least I do ultra marathons on the distances of 55 and 80 km. The passion for running forces me to spend quite some time in the forest or on the road, where I enjoy to think while running. You can read some of my running adventures on [gipsyrunner](http://www.gipsyrunner.com).
+In my spare time I do ultra marathons (trail) on the distances of 55 and 80 km.
 
 
 ### Identify me
-Security is as important as confidentiality and privacy. If you need to contact me in a confidential and secure way, please follow the best practices of encrypted/signed
-communication.
+Security is as important as confidentiality and privacy. If you need to contact me in a confidential and secure way, please follow the best practices of encrypted/signed communication. I engage confidential communications on secure channels like Signal and Telegram. 
 
 - This site has been proved by [keybase.io](https://keybase.io/fragadaleta)
 - I have a public key with fingerprint 3CB8 C721 FE99 BC98 38DC  F463 BFDC E4EC CE3B 7327

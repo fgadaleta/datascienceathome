@@ -10,5 +10,5 @@ alt: image-alt
 #client: NA
 category: intelligence
 title: Deep Learning
-description: We provide technical consulting regarding artificial intelligence and deep learning together with the computing architectures and  the most prominent software packages that are currently available. Our expertise in distributed systems is essential to give the insights one needs to get started with a customized data analytics pipeline in the most optimized and efficient environment. Contact us!
+description: We are experts in Artificial Intelligence (AI) and Deep Learning (DL) technology together with the computing architectures and the most prominent software packages to execute them. Our expertise in distributed systems is also essential to give the insights one needs to get started with a customized AI analytics pipeline in the most optimized and efficient environment.
 ---
