@@ -1,5 +1,5 @@
 # Site settings
-title: Data Science at Home 
+title: Data Science at Home
 email: worldofpiggy@gmail.com
 url: http://datascienceathome.com
 description: "The place where we tell you the skills you need and the tools you can build at home"
@@ -7,7 +7,7 @@ skills: "Give sense to your data with the power of predictive analytics and deep
 meta_author: Gadaleta Francesco
 
 # Publication date
-#time: 2011-12-01 
+#time: 2011-12-01
 lang: en-us
 
 # podcast info
@@ -15,7 +15,7 @@ podcast:
   title: Data Science at Home
   subtitle: the podcast about data science for small and large enterprises
   url: podcast
-  description: podcast description 
+  description: podcast description
   author: Francesco Gadaleta
   copyright:  "&#x2117; &amp; &#xA9; 2016"
   keywords: [data science, big data, predictive, analytics]
@@ -25,10 +25,10 @@ podcast:
 webserver_headers:
   "Access-Control-Allow-Origin": "*"
   "Server": "CustomServerName"
-  
-  
+
+
 # Google webmaster tools
-google_verify: 
+google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -50,11 +50,11 @@ disqus: worldofpiggy
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 34393e #2c3e50 #437aab #2692d2  #18bc9c #80B3FF   
-  text: 717379 #575a65 #434550
-  primary-rgb: "67,122,171" #"128,179,255"
-  secondary: 191e24 #233140 #2c3e50 #FD6E8A
-  secondary-dark: 191e24 #233140 #A2122F
+  primary: 444c54 #29313A
+  text: 717379
+  primary-rgb: c2c2c2
+  secondary: 29313A
+  secondary-dark: 29313A
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
@@ -69,7 +69,7 @@ footer:
   copyright: datascienceathome.com
   location: World
   social: Social
-  credits: Credits  
+  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -77,8 +77,8 @@ social:
     url: http://twitter.com/worldofpiggy
   - title: github
     url: http://github.com/worldofpiggy
-  - title: linkedin 
-    url: http://www.linkedin.com/in/fragadaleta 
+  - title: linkedin
+    url: http://www.linkedin.com/in/fragadaleta
 
 author: Francesco Gadaleta
 
@@ -93,12 +93,12 @@ address:
   - line: About
     url: /about
 
-    
+
 # Credits content
 credits:
   - line: 'Copyright (c) 2017'
   - line: 'datascienceathome.com'
-  
+
 
 # Build settings
 markdown: kramdown

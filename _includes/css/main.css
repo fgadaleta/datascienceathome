@@ -552,6 +552,17 @@ and (max-device-width : 568px)
    min-width: 250px;
   }
 
+  .post-entry{
+    font-size: 1.3em;
+    min-width: 430px;
+  }
+  
+  .bg-img-blog{
+    background: linear-gradient(0deg,rgba(128,128,128,0.4),rgba(64,64,64,0.4)),
+    url(/img/blog.jpg) center no-repeat;
+    background-size: cover;
+    min-width: 455px;
+  }
 
 	.podcast-info {
 	  margin-top: -20px;
