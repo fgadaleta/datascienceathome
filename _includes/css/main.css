@@ -663,6 +663,12 @@ and (max-device-width : 568px)
   background-size: cover;
 }
 
+.bg-img-about{
+  background: linear-gradient(0deg,rgba(128,128,128,0.4),rgba(64,64,64,0.4)),
+  url(/img/about.jpg) center no-repeat;
+  background-size: cover;
+}
+
 
 .bg-img {
     width: 100%;
