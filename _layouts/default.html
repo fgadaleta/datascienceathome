@@ -1,30 +1,20 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
+<html lang="en">
 
-    <body id="page-top" class="index">
+{% include head.html %}
+
+<body>
+
     {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
 
-    {% include about.html %}
+    {{ content }}
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
-
-    {% include chatbot.html %}
     {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
 
+    {% include ga.html %}
 
-    {% include analytics.html %}
+    {% include privy_popup.html %}
 
+</body>
 
-    </body>
 </html>

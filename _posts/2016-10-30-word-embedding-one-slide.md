@@ -1,9 +1,15 @@
 ---
+title: Word Embedding explained in one slide
 layout: post
-title: Word Embedding explained in one slide 
-tags: [analytics, deep learning, word, embedding, nlp]
+tags:
+- analytics
+- deep learning
+- word
+- embedding
+- nlp
 comments: true
 type: post
+subtitle: How artificial intelligence understand semantics
 ---
 
 Word embeddings is one of the most powerful concepts of deep learning applied to Natural Language Processing. 

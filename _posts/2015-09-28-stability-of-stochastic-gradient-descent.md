@@ -1,9 +1,18 @@
 ---
-layout: post
 title: Stability of stochastic gradient descent
-tags: [google, gradient-descent, loss, minimization, optimization, sgd, stability, stochastic]
+layout: post
+tags:
+- google
+- gradient-descent
+- loss
+- minimization
+- optimization
+- sgd
+- stability
+- stochastic
 comments: true
 type: post
+subtitle: Analysis of the most powerful algorithm behind neural networks
 ---
 
 A paper that, in my opinion, will be more influential than the garbage
@@ -49,7 +58,4 @@ If SGD overfits the training data in a number of iterations,
 it is still guaranteed to generalize because that training subset is so small
 that overfitting would not be critical. Of course, those who would like a formal
 proof of what has been claimed thus far, need to read the paper, which might
-be a bit challenging but definitely interesting. 
-
-
-
+be a bit challenging but definitely interesting.

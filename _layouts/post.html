@@ -1,87 +1,58 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
+---
+layout: default
+---
 
-
-    <body id="page-top" class="index">
-    {% include nav.html %}
-
- <div style="height:150px; width:100%; clear:both;"></div>    
-
- <div class="container" role="main">
- <div class="row">
-    <div class="col-lg-12 text-center">
-      <h2>{{ page.title }}</h2>
-      <hr class="star-primary">
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+            </div>
+        </div>
     </div>
- </div>
-            
-  <div class="row">
-    <div class="col-lg-12">
-      {{ content }}
-      
-      {% if page.tags.size > 0 %}
-        <div class="blog-tags">
-          Tags: 
-          {% if site.link-tags %}
-          {% for tag in page.tags %}
-            <a href="/tag/#{{ tag }}" class="tag fa fa-tag">{{ tag }}</a>
-          {% endfor %}
-          {% else %}
-            {{ page.tags | join: ", " }}
-          {% endif %}
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				{{ content }}
+
+<hr>
+  <h2>Before you go</h2>
+  <p>
+If you enjoyed this post, you will love the newsletter of Data Science at Home.
+It’s my FREE digest of the best content in Artificial Intelligence, data science,
+predictive analytics and computer science. <a href='https://promotions.privy.com/campaigns/133049'>Subscribe!</a>
+</p>
+
+                <hr>
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+            </div>
         </div>
-      {% endif %}
-      
-      {% if page.comments %}
-        <div class="disqus-comments">
-	    {% include disqus.html %}
-        </div>
-      {% endif %}
-     </div>
-     
-<!-- Paypal form --> 
-    <div class="row">
-    <div class="col-lg-12">
-	    {% include paypal_donate.html %}
-     </div>
-     </div>
-<!-- end of Paypal form -->
-     
-     
-     
-     
-     <ul class="pager blog-pager">
-        {% if page.previous.url %}
-        <li class="previous">
-          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="next">
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
-     
-   </div>
- </div>
- 
-   
-   <div class="container">
-    <div class="row">
-           <div class="col-lg-12">
-           </div>
-   </div>
-</div>
+    </div>
+</article>
 
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
-    {% include privy_popup.html %}
-	
-    {% include analytics.html %}
-    </body>
-</html>
-
-
+<hr>
