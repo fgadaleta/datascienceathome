@@ -1,8 +1,13 @@
 ---
-layout: post
 title: Fitting distributions in R
+layout: post
 comments: true
-tags: [code, distribution, fitting, R, statistics]
+tags:
+- code
+- distribution
+- fitting
+- R
+- statistics
 ---
 
 One recurrent problem that we are experiencing in the office is, as the title
@@ -47,8 +52,8 @@ distribution is a Gamma
 So far so good. Once we are _"sure"_ about the shape of the distribution, the next
 big step is to guess the right parameters that govern the real trends within
 that distribution. Therefore, in the case of a Normal distribution we should
-estimate the right $latex mu $ and $latex sigma $, or for a Poisson
-distribution we might need to estimate the $latex lambda $ parameter. 
+estimate the right $$ \mu $$ and $$ \sigma $$, or for a Poisson
+distribution we might need to estimate the $$ \lambda $$ parameter. 
 
 If our assumptions are all about a Gamma distribution, then parameters $latex k$ and
 $latex theta $ should be estimated.
@@ -71,7 +76,8 @@ case the two match consistently. Therefore:
 
 would plot (almost) a straight line, or points aligned onto it. [caption
 id="attachment_1704" align="alignnone" width="640"][![Quantile-quantile plot
-of a gamma](https://s3-eu-west-1.amazonaws.com/wopcontent/uploads/2014/02/qqg.jpeg)](https://s3-eu-west-1.amazonaws.com/wopcontent/uploads/2014/02/qqg.jpeg) Quantile-quantile plot of a gamma[/caption]
+of a gamma](https://s3-eu-west-1.amazonaws.com/wopcontent/uploads/2014/02/qqg.jpeg)](https://s3-eu-west-1.amazonaws.com/wopcontent/uploads/2014/02/qqg.jpeg) 
+<span class="caption text-muted">Quantile-quantile plot of a gamma</span>
 
 
 ## How about the parameters?
@@ -83,28 +89,28 @@ directly from data will be assumed as parameters of the candidate
 distribution. For instance, if we assume that data have been generated from a
 Normal distribution, we should estimate the mean and the variance. Who better
 than the sample mean and sample variance could do that? An approximation would
-be: $latex hat{mu} = mu &amp;s=2$ and $latex hat{sigma} = sigma &amp;s=2$ that
+be: $$ \hat{mu} = mu &amp;s=2$$ and $$ \hat{sigma} = sigma &amp;s=2$$ that
 will be thrown into the normal distribution analytical form we are familiar
-with $latex f(x,mu, sigma) = frac{1}{sqrt{2pi}sigma} e^{-
-frac{1(x-mu)^2)}{2sigma^2} }&amp;s=2$ 
+with $$ f(x,\mu, \sigma) = \frac{1}{\sqrt{2\pi}sigma} e^{-
+\frac{1(x-\mu)^2)}{2\sigma^2} }&amp;s=2$$ 
 
 Another method I personally prefer is the Maximum Likelihood Estimation. 
 Of course it relies on the assumed distribution, as the method of moments. 
 Here is an analytical example for the Gamma distribution. 
 The maximum likelihood estimation method consists in
 maximising the likelihood function which is (in general for any distribution)
-$latex L(x_2, ..., x_n,theta) = prod_{i=1}^{n} f(x_i,theta)&amp;s=2$ The MLE
-consists in finding the $latex theta &amp;s=2$ that miximises the likelihood
+$$ L(x_2, ..., x_n,\theta) = \prod_{i=1}^{n} f(x_i,\theta)&amp;s=2$$ The MLE
+consists in finding the $$ \theta &amp;s=2$$ that miximises the likelihood
 (or equivalently its logarithmic function). 
 
 For the Gamma distribution it
-would be something like $latex L(x_2, ..., x_n, alpha, lambda) =
-prod_{i=1}^{n} f(x_i,theta) = prod_{i=1}^{n}
-frac{lambda^alpha}{Gamma(alpha)}x_{i}^{alpha-1}e^{-lambda x_i} =
-frac{lambda^alpha}{Gamma(alpha)}(prod_{i=1}^{n} x_i)^{alpha-1} e^{-lambda
-sum_{i=1}^n x_i} &amp;s=1$ and the logarithmic function is $latex log(L) = n
-alpha log(lambda) -n log(Gamma(alpha)) + (alpha-1) sum log(x_i) - lambda sum
-x_i &amp;s=1$ As a Pig in love with Math I would keep it like that. 
+would be something like $$ L(x_2, ..., x_n, \alpha, \lambda) =
+\prod_{i=1}^{n} f(x_i,\theta) = \prod_{i=1}^{n}
+\frac{\lambda^\alpha}{\Gamma(\alpha)}x_{i}^{\alpha-1}e^{-\lambda x_i} =
+\frac{\lambda^\alpha}{\Gamma(\alpha)}(\prod_{i=1}^{n} x_i)^{\alpha-1} e^{-\lambda
+\sum_{i=1}^n x_i} &amp;s=1$$ and the logarithmic function is $$ \log(L) = n
+\alpha \log(\lambda) -n log(\Gamma(\alpha)) + (\alpha-1) \sum \log(x_i) - \lambda \sum
+x_i &amp;s=1$$ As a Pig in love with Math I would keep it like that. 
 
 But my room mate, the engineer, usually dislikes that form and prefers to see it in a
 more _"useful"_ way, as he claims, whenever he applies this masterpiece to
@@ -128,13 +134,13 @@ name of _goodness of fit_.
 These measures basically match the empirical
 frequencies of observed data with the ones fitted by a theoretical
 distribution (the assumed one). The literature is offering absolute and
-relative measures. Two absolute measures are $latex gf_1 = frac{sum_{i=1}^n
-|y_i - y^{*}_i| }{n} &amp;s=2$ $latex gf_2 = sqrt{frac{sum (y_i - y^{*}_i)^2
-}{n}} &amp;s=2$ where $latex y_i &amp;s=2$ and $latex y^{*}_i &amp;s=2$ are
+relative measures. Two absolute measures are $$ gf_1 = \frac{\sum_{i=1}^n
+|y_i - y^{*}_i| }{n} &amp;s=2$$ $$ gf_2 = \sqrt{\frac{\sum (y_i - y^{*}_i)^2
+}{n}} &amp;s=2$$ where $$ y_i &amp;s=2$$ and $$ y^{*}_i &amp;s=2$$ are
 the empirical frequencies and the theoretical ones respectively. Some relative
-measures are: $latex gf_3 = frac{gf_1} {sum frac{y_i}{n} } &amp;s=2$ $latex
-gf_4 = frac{gf_2} {sum frac{y_i}{n} } &amp;s=2$ $latex gf_5 = frac{gf_2}
-{sqrt{sum frac{y^{2}_i}{n}}}&amp;s=2 $ 
+measures are: $$ gf_3 = \frac{gf_1} {\sum \frac{y_i}{n} } &amp;s=2$$ $$
+gf_4 = \frac{gf_2} {\sum \frac{y_i}{n} } &amp;s=2$$ $$ gf_5 = \frac{gf_2}
+{\sqrt{\sum \frac{y^{2}_i}{n}}}&amp;s=2 $$ 
 
 Again, I found the engineer somewhere between disgusted and scared. 
 

@@ -1,10 +1,17 @@
 ---
-layout: post
 title: Removing outliers in Python
-tags: [analytics, bigdata, coding, computation, filtering, outlier, python, scipy]
+layout: post
+tags:
+- analytics
+- bigdata
+- coding
+- computation
+- filtering
+- outlier
+- python
+- scipy
 comments: true
 ---
-
 
 In the attempt of removing outliers from a list of numbers without getting
 stuck on too much theory, I would like to share a fast solution that seems to
@@ -13,7 +20,7 @@ work quite effectively (at least on the data at hand).
 Here is a quite effective snippet that does the job. 
 Don't forget to comment, like, share, etc.
 
-<img src="http://worldofpiggy.com/wp-content/uploads/2015/08/plot.png" />
+<img src="https://s3-eu-west-1.amazonaws.com/wopcontent/uploads/2015/08/plot.png" />
 
 	import matplotlib.pyplot as plt import scipy.signal as sps
 	raw = np.zeros(100) # create some outliers raw[54:57] = 1
@@ -32,4 +39,3 @@ You can also
 [download](https://github.com/worldofpiggy/python-code/blob/master/removeOutliers.py) it from my [Github](https://github.com/worldofpiggy) account. 
 
 Happy filtering!
-

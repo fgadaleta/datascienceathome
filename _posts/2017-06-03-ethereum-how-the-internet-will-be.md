@@ -13,8 +13,11 @@ subtitle: Why blockchain technology will disrupt the world and how
 ---
 
 In the aftermath of the explosion of cryptocurrency Ethereum (from $65 to $100, then $150 and higher), I feel the urge of sharing my thoughts and trying to make sense of what is happening.
-> **DISCLAIMER**
-> *Despite the amount of hours spent researching, programming and evaluating the blockchain world, this post is my personal opinion and should not be considered as a suggestion to buy/sell cryptocurrencies nor as a financial analysis.*
+
+> *Despite the amount of hours spent researching, programming and evaluating the blockchain world, this post is my personal opinion and should not be considered as a suggestion to buy/sell cryptocurrencies nor as a financial analysis*
+
+
+
 
 
 <img src="/img/img_posts/ethereum.png">
@@ -78,8 +81,10 @@ This is what makes Ethereum priceless.
 
 Despite the speculative opportunity of Ethereum for many, it is undeniable that some organisations finally realised the potential benefits and disruption of such technology. The member list of the [Enterprise Ethereum Alliance](https://entethalliance.org/) represents one of the many signs that a technology like this one cannot be ignored and will change the way we do anything that requires the smallest amount of technology. Large corporations have joined already. Among the most prominent ones, BBVA, J.P. Morgan, ING, Microsoft, Intel Santander, Monax, Credit Suisse, UBS, Accenture, Toyota, Thomson Reuters, and the list goes on as published [here](https://entethalliance.org/members/).
 
-<img src="/img/img_posts/ethereum_alliance.png">
-*Some of the members who joined the Enterprise Ethereum Alliance*
+<a href="#">
+    <img src="{{ site.baseurl }}/img/img_posts/ethereum_alliance.png" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">Some of the members who joined the Enterprise Ethereum Alliance</span>
 
 These organisations realised that the entire internet ecosystem can be disrupted by Ethereum and its Dapps that will need no intermediary to execute without fraud nor service interruption and interference. For the members of the Ethereum Alliance it is mandatory to join the blockchain not to miss the train of opportunities and stay isolated in the old good Internet 1.0.
 All the members of the Enterprise Ethereum Alliance know that owning Ethereum means owning a piece of the TCP/IP Internet stack of the future.
