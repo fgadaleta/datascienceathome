@@ -6,6 +6,7 @@ tags:
 - AI
 - fail
 - startup
+comments: true
 ---
 
 Most entrepreneurs and data scientists will tell you how to succeed with artificial intelligence (AI) and machine learning, but very few talk about how to fail with such technologies. While the technology is incredibly powerful — and heavily hyped — there is a plethora of ways to fail with AI.

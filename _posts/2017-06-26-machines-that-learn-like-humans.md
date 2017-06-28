@@ -2,6 +2,7 @@
 title: Machines that learn like humans
 layout: post
 subtitle: Podcast episode with Google software engineer Brett Zhiyuan
+comments: true
 ---
 
 In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn…well… like machines. 

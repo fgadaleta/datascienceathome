@@ -1,8 +1,17 @@
 ---
-layout: post
 title: Getting ready for Big Data analytics and optimization in Python
-tags: [analytics, big-data, coding, computer-science, optimization, programming, python]
+layout: post
+tags:
+- analytics
+- big-data
+- coding
+- computer-science
+- optimization
+- programming
+- python
+comments: true
 ---
+
 The increasing popularity of Python as a language for Big Data analysis is yet
 another reason to learn some optimization techniques to write software that
 can scale easily without putting the hardware infrastructure under stress (for
@@ -122,4 +131,3 @@ Now I do this:
     binned_data, bin_edges = np.histogram(data, bins)
 
 Enjoy Python. Happy optimization!
-
