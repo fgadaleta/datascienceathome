@@ -4,9 +4,9 @@ https://keybase.io/fragadaleta
 
 I hereby claim:
 
-  * I am an admin of http://worldofpiggy.com
+  * I am an admin of http://datascienceathome.com
   * I am fragadaleta (https://keybase.io/fragadaleta) on keybase.
-  * I have a public key with fingerprint 3CB8 C721 FE99 BC98 38DC  F463 BFDC E4EC CE3B 7327
+  * I have a public key ASDasol7qjfq5RcoMMZL-O1HMjkFTyirY9NcZNdGBDaFQwo
 
 To do so, I am signing this object:
 
@@ -14,46 +14,38 @@ To do so, I am signing this object:
     "body": {
         "key": {
             "eldest_kid": "0111f5042d99ea97699ac01625d4de0350d0df79698a88208500898a6c29e8e285440a",
-            "fingerprint": "3cb8c721fe99bc9838dcf463bfdce4ecce3b7327",
             "host": "keybase.io",
-            "key_id": "bfdce4ecce3b7327",
-            "kid": "0111f5042d99ea97699ac01625d4de0350d0df79698a88208500898a6c29e8e285440a",
+            "kid": "0120dab2897baa37eae5172830c64bf8ed473239054f28ab63d35c64d746043685430a",
             "uid": "d671939b35fdec7f0e35e3fd3fbe1c19",
             "username": "fragadaleta"
         },
+        "merkle_root": {
+            "ctime": 1499246985,
+            "hash": "8a4b6952c87b9cd324f8a546540dca5b4422f621ecf19635f6027b7dbd48c0139f1bcc57a2ebc2bc0b7c40a2259c0cf3990aa5f03151e98681ce0a92f531c40f",
+            "hash_meta": "d7cbe952ce6d55d53fa21a13d6ae835572a2bf642b4b9fa2c08d87a5dda928df",
+            "seqno": 1212013
+        },
         "service": {
-            "hostname": "worldofpiggy.com",
+            "hostname": "datascienceathome.com",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1480611915,
-    "expire_in": 157680000,
-    "prev": "f02e8794341e708ff8b11441efa2b02e099e9586a3869e0d474e4c4d3d756e9e",
-    "seqno": 9,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1499247004,
+    "expire_in": 504576000,
+    "prev": "59a72c1417fb5a5b1adf157da8b9f74e503ae582181c3af478ec2d5fd252ac05",
+    "seqno": 17,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1.4
-Comment: GPGTools - http://gpgtools.org
-
-owGtUj2IFDEUHtcfcEHw4KyFNNcsRzJJJsnYCILXXmFxjQ75eZmNtzczzszuuRxn
-fVrZKF4h1nai9aEo2AjX2VlY2Aj2tmaWs7M0TfLyvu9733u8p1fOJ6O1999+/Dq9
-0W2c+/LTJDs3d7YPkKndEuUHaBdWF8wcdH2xGxzKESaEeI5Z6pQCrUSmlLaYZCl3
-zAGmHDvsvFCZklrKFEuOsYzvzKYKJKSSM4Y1miAfqhLapg1VH2WpNdKKlHhQylgl
-qXTWs4wa7ywwsBaoETQVkTitu4ERzRndwWao418MipW9f+D/s+/5Ss5lgiiqDOXe
-gRUeA+VAvaPeALFEDcAO2krvQUT7Vpfa6Rn0Gh1OUEwsgoVhtkMzZ6D9up252jeh
-LJebtt6LEk1b97WtZzE77fsmH8j9slmhwRRnOoUJlYvTjIQFtF2oK5STiLR9GIQJ
-kzgjRBE+QfCwCS0UYUBwkUkcz1AGFoPLezgFKRSjjIDA0ntpCGEx8Do1MYfj6BSX
-maYyU4AdEwyYZY46wTNQgIbWHlQ1ylX0qcuo2YWy0v28BXQ4Prp9IVkbJZcujoY1
-S8aXr/7dvWv3k5fryYdHvx+Px9dPpx8/v7h7/ObO91HyavvW1km+Pn/yunh38vbr
-p6Pnx/2zPw==
-=NhJp
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2rKJe6o36uUXKDDGS/jtRzI5BU8oq2PTXGTXRgQ2hUMKp3BheWxvYWTFA1B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTExZjUwNDJkOTllYTk3Njk5YWMwMTYyNWQ0ZGUwMzUwZDBkZjc5Njk4YTg4MjA4NTAwODk4YTZjMjllOGUyODU0NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZGFiMjg5N2JhYTM3ZWFlNTE3MjgzMGM2NGJmOGVkNDczMjM5MDU0ZjI4YWI2M2QzNWM2NGQ3NDYwNDM2ODU0MzBhIiwidWlkIjoiZDY3MTkzOWIzNWZkZWM3ZjBlMzVlM2ZkM2ZiZTFjMTkiLCJ1c2VybmFtZSI6ImZyYWdhZGFsZXRhIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk5MjQ2OTg1LCJoYXNoIjoiOGE0YjY5NTJjODdiOWNkMzI0ZjhhNTQ2NTQwZGNhNWI0NDIyZjYyMWVjZjE5NjM1ZjYwMjdiN2RiZDQ4YzAxMzlmMWJjYzU3YTJlYmMyYmMwYjdjNDBhMjI1OWMwY2YzOTkwYWE1ZjAzMTUxZTk4NjgxY2UwYTkyZjUzMWM0MGYiLCJoYXNoX21ldGEiOiJkN2NiZTk1MmNlNmQ1NWQ1M2ZhMjFhMTNkNmFlODM1NTcyYTJiZjY0MmI0YjlmYTJjMDhkODdhNWRkYTkyOGRmIiwic2Vxbm8iOjEyMTIwMTN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZGF0YXNjaWVuY2VhdGhvbWUuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNCJ9LCJjdGltZSI6MTQ5OTI0NzAwNCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1OWE3MmMxNDE3ZmI1YTViMWFkZjE1N2RhOGI5Zjc0ZTUwM2FlNTgyMTgxYzNhZjQ3OGVjMmQ1ZmQyNTJhYzA1Iiwic2Vxbm8iOjE3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAE4F1Dyffkt5D7pL7sTrjBwtgT+RGHYDD/Dh692tQHfwUN5k/fGM8+uWrGuyPYDzD7g6ixY+L/xJfmSEV84Pweoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBZwG0HrYmlhoSlbN8RtN2UKQxOXBL+wU3ws2UcVyN+waN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
