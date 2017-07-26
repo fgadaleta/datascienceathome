@@ -1,0 +1,134 @@
+/* Absolute Center */
+.abs-center{
+	margin: auto;
+	position: fixed;
+	top:0; right:0; bottom:0; left:0;
+}
+/*Container for audio player*/
+#audioplayer{
+	/*
+	width: 480px;
+	height: 60px;
+	margin: auto;
+	margin-top: 50px;
+	border: solid;
+	*/
+	width: 100%;
+  height: 100%;
+}
+/* Play/Pause Button */
+#pButton{
+	height: 120px;
+    width: 120px;
+    border: none;
+    bottom: -20px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* float: left; */
+    outline: none;
+    position: absolute;
+    left: 160px;
+}
+#pButton_rewind{
+	height: 80px;
+    width: 80px;
+    border: none;
+		bottom: 0px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    position: absolute;
+    left: 100px;
+}
+#pButton_forward{
+	height: 80px;
+    width: 80px;
+    border: none;
+    bottom: 0px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* float: left; */
+    outline: none;
+    position: absolute;
+    left: 260px;
+}
+
+/*Classes for play/pause button background*/
+.play{background: url('./images/play.png') ;}
+.pause{background: url('./images/pause.png') ;}
+.rewind{background: url('./images/rewind.png') ;}
+.forward{background: url('./images/next.png') ;}
+
+
+#trackinfo{
+	color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 400px;
+}
+
+.podcast{
+	font-size: 15px;
+    font-weight: bold;
+    left: 100px;
+    width: 50%;
+    /* bottom: 53px; */
+    line-height: 48px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.episode{
+	font-size: 15px;
+	width: 50%;
+	/* bottom: -46px; */
+	font-family: sans-serif;
+	/* position: absolute; */
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 26px;
+}
+
+.duration{
+	font-size: 13px;
+    /* width: 100%; */
+    /* bottom: -46px; */
+    font-family: sans-serif;
+		color:white;
+    /* position: absolute; */
+    font-weight: bold;
+    float: right;
+    /* right: 0px; */
+    /* left: 600px; */
+    /* letter-spacing: 1px; */
+    /* line-height: 26px; */
+    margin-top: 10px;
+}
+
+
+#timeline{
+	width: 70%;
+    height: 2px;
+    background: #ccc;
+    margin-top: 20px;
+    float: left;
+    border-radius: 4px;
+    bottom: 40px;
+    position: absolute;
+    left: 400px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    background: #0085a1;
+    bottom: 40px;
+    top: -9px;
+    position: absolute;
+}

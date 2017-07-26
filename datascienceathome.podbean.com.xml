@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="podbean/3.2" -->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>Data Science at Home</title>
+	<atom:link href="https://datascienceathome.podbean.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://datascienceathome.podbean.com</link>
+	<description>Data Science at Home is the podcast about machine learning and artificial intelligence for the small and large enterprise</description>
+	<pubDate>Tue, 13 Jun 2017 02:19:35 -0400</pubDate>
+	<generator>https://podbean.com/?v=3.2</generator>
+	<language>en</language>
+		<!-- podcast_generator="Podbean Engine/5.0" -->
+		<copyright>Copyright 2017 Francesco Gadaleta. All rights reserved.</copyright>
+		<category>Technology:Podcasting</category>
+		<ttl>1440</ttl>
+		<itunes:subtitle>Data Science at Home the podcast about data science and artificial intelligence for small and large enterprise		</itunes:subtitle>
+		<itunes:summary>Data Science at Home is the podcast about machine learning and artificial intelligence for the small and large enterprise</itunes:summary>
+		<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:category text="Technology">
+  <itunes:category text="Podcasting"/>
+</itunes:category>
+		<itunes:owner>
+			<itunes:name>Francesco Gadaleta</itunes:name>
+			<itunes:email>francesco.gadaleta@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:block>No</itunes:block>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:image href="http://deow9bq0xqvbj.cloudfront.net/image-logo/1799802/datascienceathome_podcast_cover_1400.png" />
+		<image>
+			<url>http://deow9bq0xqvbj.cloudfront.net/image-logo/1799802/datascienceathome_podcast_cover_1400.png</url>
+			<title>Data Science at Home</title>
+			<link>https://datascienceathome.podbean.com</link>
+			<width>144</width>
+			<height>144</height>
+		</image>
+			<item>
+		<title>Machines that learn like humans</title>
+		<link>http://datascienceathome.podbean.com/e/machines-that-learn-like-humans/</link>
+		<comments>http://datascienceathome.podbean.com/e/machines-that-learn-like-humans/#comments</comments>
+		<pubDate>Tue, 28 Mar 2017 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>Artificial Intelligence</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/machines-that-learn-like-humans/</guid>
+
+		<description><![CDATA[<p>Artificial Intelligence allow machines to learn patterns from data. The way humans learn however is different and more efficient. With Lifelong Machine Learning, machines can learn the way human beings do, faster, and more efficiently</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Artificial Intelligence allow machines to learn patterns from data. The way humans learn however is different and more efficient. With Lifelong Machine Learning, machines can learn the way human beings do, faster, and more efficiently</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/4esjdv/datascience_episode_18_lifelong_machine_learning.mp3" length="40422197" type="audio/mpeg"/>
+				<itunes:subtitle>Artificial Intelligence allow machines to learn patterns from data. The way humans learn however is different and more efficient. With Lifelong Machine Learning, machines can ...</itunes:subtitle>
+		<itunes:summary><![CDATA[Artificial Intelligence allow machines to learn patterns from data. The way humans learn however is different and more efficient. With Lifelong Machine Learning, machines can learn the way human beings do, faster, and more efficiently]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:42:06</itunes:duration>
+		</item>
+		<item>
+		<title>Protecting privacy and confidentiality in data and communications</title>
+		<link>http://datascienceathome.podbean.com/e/protecting-privacy-and-confidentiality-in-data-and-communications/</link>
+		<comments>http://datascienceathome.podbean.com/e/protecting-privacy-and-confidentiality-in-data-and-communications/#comments</comments>
+		<pubDate>Wed, 15 Feb 2017 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>privacy and security</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/protecting-privacy-and-confidentiality-in-data-and-communications/</guid>
+
+		<description><![CDATA[<p>Talking about security of communication and privacy is never enough, especially when political instabilities are driving leaders towards decisions that will affect people on a global scale</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Talking about security of communication and privacy is never enough, especially when political instabilities are driving leaders towards decisions that will affect people on a global scale</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/cykjkg/datascience_episode_privacy.mp3" length="16829405" type="audio/mpeg"/>
+				<itunes:subtitle>Talking about security of communication and privacy is never enough, especially when political instabilities are driving leaders towards decisions that will affect people on a ...</itunes:subtitle>
+		<itunes:summary><![CDATA[Talking about security of communication and privacy is never enough, especially when political instabilities are driving leaders towards decisions that will affect people on a global scale]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:17:31</itunes:duration>
+		</item>
+		<item>
+		<title>2017 Predictions in Data Science</title>
+		<link>http://datascienceathome.podbean.com/e/2017-predictions-in-data-science/</link>
+		<comments>http://datascienceathome.podbean.com/e/2017-predictions-in-data-science/#comments</comments>
+		<pubDate>Fri, 23 Dec 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>Artificial Intelligence</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/2017-predictions-in-data-science/</guid>
+
+		<description><![CDATA[<p>We strongly believe 2017 will be a very interesting year for data science and artificial intelligence. Let me tell you what I expect and why.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>We strongly believe 2017 will be a very interesting year for data science and artificial intelligence. Let me tell you what I expect and why.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/ryk87x/datascience_episode_predictions_2017.mp3" length="19703169" type="audio/mpeg"/>
+				<itunes:subtitle>We strongly believe 2017 will be a very interesting year for data science and artificial intelligence. Let me tell you what I expect and why.</itunes:subtitle>
+		<itunes:summary><![CDATA[We strongly believe 2017 will be a very interesting year for data science and artificial intelligence. Let me tell you what I expect and why.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:20:31</itunes:duration>
+		</item>
+		<item>
+		<title>Statistical analysis of phenomena that smell like chaos</title>
+		<link>http://datascienceathome.podbean.com/e/statistical-analysis-of-phenomena-that-smell-like-chaos/</link>
+		<comments>http://datascienceathome.podbean.com/e/statistical-analysis-of-phenomena-that-smell-like-chaos/#comments</comments>
+		<pubDate>Mon, 05 Dec 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/statistical-analysis-of-phenomena-that-smell-like-chaos/</guid>
+
+		<description><![CDATA[<p>Is the market really predictable? How do stock prices increase? What is their dynamics? Here is what I think about the magics and the reality of predictions applied to markets and the stock exchange.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Is the market really predictable? How do stock prices increase? What is their dynamics? Here is what I think about the magics and the reality of predictions applied to markets and the stock exchange.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/m6ihcd/datascience_episode_finance_chaos.mp3" length="9833480" type="audio/mpeg"/>
+				<itunes:subtitle>Is the market really predictable? How do stock prices increase? What is their dynamics? Here is what I think about the magics and the reality ...</itunes:subtitle>
+		<itunes:summary><![CDATA[Is the market really predictable? How do stock prices increase? What is their dynamics? Here is what I think about the magics and the reality of predictions applied to markets and the stock exchange.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:10:14</itunes:duration>
+		</item>
+		<item>
+		<title>The minimum required by a data scientist</title>
+		<link>http://datascienceathome.podbean.com/e/the-minimum-required-by-a-data-scientist/</link>
+		<comments>http://datascienceathome.podbean.com/e/the-minimum-required-by-a-data-scientist/#comments</comments>
+		<pubDate>Tue, 27 Sep 2016 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>Artificial Intelligence</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/the-minimum-required-by-a-data-scientist/</guid>
+
+		<description><![CDATA[<p>Why the job of the data scientist can disappear soon. What is required by a data scientist to survive inflation.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Why the job of the data scientist can disappear soon. What is required by a data scientist to survive inflation.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/g5e7cz/datascience_episode_17_minimum_required.mp3" length="16107566" type="audio/mpeg"/>
+				<itunes:subtitle>Why the job of the data scientist can disappear soon. What is required by a data scientist to survive inflation.</itunes:subtitle>
+		<itunes:summary><![CDATA[Why the job of the data scientist can disappear soon. What is required by a data scientist to survive inflation.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:16:46</itunes:duration>
+		</item>
+		<item>
+		<title>Data Science and Fraud Detection at iZettle</title>
+		<link>http://datascienceathome.podbean.com/e/data-science-and-fraud-detection-at-izettle/</link>
+		<comments>http://datascienceathome.podbean.com/e/data-science-and-fraud-detection-at-izettle/#comments</comments>
+		<pubDate>Tue, 06 Sep 2016 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>privacy and security</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/data-science-and-fraud-detection-at-izettle/</guid>
+
+		<description><![CDATA[<p>Data science is making the difference also in fraud detection. In this episode I have a conversation with an expert in the field, Engineer Eyad Sibai, who works at iZettle, a fraud detection company</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Data science is making the difference also in fraud detection. In this episode I have a conversation with an expert in the field, Engineer Eyad Sibai, who works at iZettle, a fraud detection company</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/2dw76g/datascience_episode_fraud_detection.mp3" length="15873926" type="audio/mpeg"/>
+				<itunes:subtitle>Data science is making the difference also in fraud detection. In this episode I have a conversation with an expert in the field, Engineer Eyad ...</itunes:subtitle>
+		<itunes:summary><![CDATA[Data science is making the difference also in fraud detection. In this episode I have a conversation with an expert in the field, Engineer Eyad Sibai, who works at iZettle, a fraud detection company]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:16:32</itunes:duration>
+		</item>
+		<item>
+		<title>EU Regulations and the rise of Data Hijackers</title>
+		<link>http://datascienceathome.podbean.com/e/eu-regulations-and-the-rise-of-data-hijackers/</link>
+		<comments>http://datascienceathome.podbean.com/e/eu-regulations-and-the-rise-of-data-hijackers/#comments</comments>
+		<pubDate>Tue, 26 Jul 2016 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>privacy and security</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/eu-regulations-and-the-rise-of-data-hijackers/</guid>
+
+		<description><![CDATA[<p>Extracting knowledge from large datasets with large number of variables is always tricky. Dimensionality reduction helps in analyzing high dimensional data, still maintaining most of the information hidden behind complexity. Here are some methods that you must try before further analysis (Part 1).</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>Extracting knowledge from large datasets with large number of variables is always tricky. Dimensionality reduction helps in analyzing high dimensional data, still maintaining most of the information hidden behind complexity. Here are some methods that you must try before further analysis (Part 1).</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/78n6ih/datascience_episode_15_GDPR.mp3" length="15634728" type="audio/mpeg"/>
+				<itunes:subtitle>Extracting knowledge from large datasets with large number of variables is always tricky. Dimensionality reduction helps in analyzing high dimensional data, still maintaining most of ...</itunes:subtitle>
+		<itunes:summary><![CDATA[Extracting knowledge from large datasets with large number of variables is always tricky. Dimensionality reduction helps in analyzing high dimensional data, still maintaining most of the information hidden behind complexity. Here are some methods that you must try before further analysis (Part 1).]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:16:17</itunes:duration>
+		</item>
+		<item>
+		<title>Representative Subsets For Big Data Learning</title>
+		<link>http://datascienceathome.podbean.com/e/representative-subsets-for-big-data-learning/</link>
+		<comments>http://datascienceathome.podbean.com/e/representative-subsets-for-big-data-learning/#comments</comments>
+		<pubDate>Tue, 03 May 2016 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/representative-subsets-for-big-data-learning/</guid>
+
+		<description><![CDATA[<p>How would you perform accurate classification on a very large dataset by just looking at a sample of it</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>How would you perform accurate classification on a very large dataset by just looking at a sample of it</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/xhjg4s/datascience_episode_roccolangone.mp3" length="20568736" type="audio/mpeg"/>
+				<itunes:subtitle>How would you perform accurate classification on a very large dataset by just looking at a sample of it</itunes:subtitle>
+		<itunes:summary><![CDATA[How would you perform accurate classification on a very large dataset by just looking at a sample of it]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:21:25</itunes:duration>
+		</item>
+		<item>
+		<title>History and applications of Deep Learning</title>
+		<link>http://datascienceathome.podbean.com/e/history-and-applications-of-deep-learning/</link>
+		<comments>http://datascienceathome.podbean.com/e/history-and-applications-of-deep-learning/#comments</comments>
+		<pubDate>Mon, 14 Mar 2016 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>Deep Learning</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/history-and-applications-of-deep-learning/</guid>
+
+		<description><![CDATA[<p>What is deep learning?If you have no patience, deep learning is the result of training many layers of non-linear processing units for feature extraction and data transformation e.g. from pixel, to edges, to shapes, to object classification, to scene description, captioning, etc.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>What is deep learning?If you have no patience, deep learning is the result of training many layers of non-linear processing units for feature extraction and data transformation e.g. from pixel, to edges, to shapes, to object classification, to scene description, captioning, etc.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/cjuufd/datascience_episode_deeplearning.mp3" length="21752058" type="audio/mpeg"/>
+				<itunes:subtitle>What is deep learning?If you have no patience, deep learning is the result of training many layers of non-linear processing units for feature extraction and ...</itunes:subtitle>
+		<itunes:summary><![CDATA[What is deep learning?If you have no patience, deep learning is the result of training many layers of non-linear processing units for feature extraction and data transformation e.g. from pixel, to edges, to shapes, to object classification, to scene description, captioning, etc.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:22:39</itunes:duration>
+		</item>
+		<item>
+		<title>Markov Chain Montecarlo with full conditionals</title>
+		<link>http://datascienceathome.podbean.com/e/markov-chain-montecarlo-with-full-conditionals/</link>
+		<comments>http://datascienceathome.podbean.com/e/markov-chain-montecarlo-with-full-conditionals/#comments</comments>
+		<pubDate>Wed, 02 Mar 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>statistics</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/markov-chain-montecarlo-with-full-conditionals/</guid>
+
+		<description><![CDATA[<p>At some point, statistical problems need sampling. Sampling consists in generating observations from a specific distribution.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>At some point, statistical problems need sampling. Sampling consists in generating observations from a specific distribution.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/zx97x5/datascience_episode_mcmc.mp3" length="17244835" type="audio/mpeg"/>
+				<itunes:subtitle>At some point, statistical problems need sampling. Sampling consists in generating observations from a specific distribution.</itunes:subtitle>
+		<itunes:summary><![CDATA[At some point, statistical problems need sampling. Sampling consists in generating observations from a specific distribution.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:17:57</itunes:duration>
+		</item>
+		<item>
+		<title>Frequentists and Bayesians</title>
+		<link>http://datascienceathome.podbean.com/e/frequentists-and-bayesians/</link>
+		<comments>http://datascienceathome.podbean.com/e/frequentists-and-bayesians/#comments</comments>
+		<pubDate>Mon, 15 Feb 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+	<category>statistics</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/frequentists-and-bayesians/</guid>
+
+		<description><![CDATA[<p>There are statisticians and data scientists… Among statisticians, there are some who just count. Some others who… think differently. In this show we explore the old time dilemma between frequentists and bayesians.Given a statistical problem, who’s going to be right?</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>There are statisticians and data scientists... Among statisticians, there are some who just count. Some others who… think differently. In this show we explore the old time dilemma between frequentists and bayesians.Given a statistical problem, who’s going to be right?</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/d9k4va/datascience_episode_frequentist_bayesians.mp3" length="6599865" type="audio/mpeg"/>
+				<itunes:subtitle>There are statisticians and data scientists... Among statisticians, there are some who just count. Some others who… think differently. In this show we explore the ...</itunes:subtitle>
+		<itunes:summary><![CDATA[There are statisticians and data scientists... Among statisticians, there are some who just count. Some others who… think differently. In this show we explore the old time dilemma between frequentists and bayesians.Given a statistical problem, who’s going to be right?]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:06:52</itunes:duration>
+		</item>
+		<item>
+		<title>30 min with data scientist Sebastian Raschka</title>
+		<link>http://datascienceathome.podbean.com/e/30-min-with-data-scientist-sebastian-raschka/</link>
+		<comments>http://datascienceathome.podbean.com/e/30-min-with-data-scientist-sebastian-raschka/#comments</comments>
+		<pubDate>Mon, 15 Feb 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/30-min-with-data-scientist-sebastian-raschka/</guid>
+
+		<description><![CDATA[<p>In this show I interview Sebastian Raschka, data scientist and author of Python Machine Learning.In addition to the fun we had offline, there are great elements about machine learning, data science, current and future trends, to keep an ear on. Moreover, it is the conversation of two data scientists who contribute and operate in the field, on a daily basis.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>In this show I interview Sebastian Raschka, data scientist and author of Python Machine Learning.In addition to the fun we had offline, there are great elements about machine learning, data science, current and future trends, to keep an ear on. Moreover, it is the conversation of two data scientists who contribute and operate in the field, on a daily basis.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/m7d2cd/datascience_episode_raschka.mp3" length="33009036" type="audio/mpeg"/>
+				<itunes:subtitle>In this show I interview Sebastian Raschka, data scientist and author of Python Machine Learning.In addition to the fun we had offline, there are great ...</itunes:subtitle>
+		<itunes:summary><![CDATA[In this show I interview Sebastian Raschka, data scientist and author of Python Machine Learning.In addition to the fun we had offline, there are great elements about machine learning, data science, current and future trends, to keep an ear on. Moreover, it is the conversation of two data scientists who contribute and operate in the field, on a daily basis.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:34:23</itunes:duration>
+		</item>
+		<item>
+		<title>How to be data scientist</title>
+		<link>http://datascienceathome.podbean.com/e/how-to-be-data-scientist/</link>
+		<comments>http://datascienceathome.podbean.com/e/how-to-be-data-scientist/#comments</comments>
+		<pubDate>Tue, 19 Jan 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/how-to-be-data-scientist/</guid>
+
+		<description><![CDATA[<p>In this episode, we tell you how to become data scientist and join an amazing community that is changing the world with data analytics.</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[<p>In this episode, we tell you how to become data scientist and join an amazing community that is changing the world with data analytics.</p>]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/e3fnmk/datascience_episode3.mp3" length="14587456" type="audio/mpeg"/>
+				<itunes:subtitle>In this episode, we tell you how to become data scientist and join an amazing community that is changing the world with data analytics.</itunes:subtitle>
+		<itunes:summary><![CDATA[In this episode, we tell you how to become data scientist and join an amazing community that is changing the world with data analytics.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:15:11</itunes:duration>
+		</item>
+		<item>
+		<title>Development and Testing Practices in Data Science</title>
+		<link>http://datascienceathome.podbean.com/e/development-and-testing-practices-in-data-science/</link>
+		<comments>http://datascienceathome.podbean.com/e/development-and-testing-practices-in-data-science/#comments</comments>
+		<pubDate>Wed, 13 Jan 2016 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/development-and-testing-practices-in-data-science/</guid>
+
+		<description><![CDATA[<p>Should data scientists follow the old good practices of software engineering? Data scientists make software after all.
+</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[Should data scientists follow the old good practices of software engineering? Data scientists make software after all.]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/shdcs7/datascience_episode2.mp3" length="7329651" type="audio/mpeg"/>
+				<itunes:subtitle>Should data scientists follow the old good practices of software engineering? Data scientists make software after all.</itunes:subtitle>
+		<itunes:summary><![CDATA[Should data scientists follow the old good practices of software engineering? Data scientists make software after all.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:07:38</itunes:duration>
+		</item>
+		<item>
+		<title>Predictions in Data Science for 2016</title>
+		<link>http://datascienceathome.podbean.com/e/predictions-in-data-science-for-2016/</link>
+		<comments>http://datascienceathome.podbean.com/e/predictions-in-data-science-for-2016/#comments</comments>
+		<pubDate>Mon, 21 Dec 2015 08:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/predictions-in-data-science-for-2016/</guid>
+
+		<description><![CDATA[<p>It’s time to experiment with Data Science at home. Since we are still dealing with our hosting service, consider the first episode purely experimental, even though the content might be of your interest, no matter what.
+</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[It’s time to experiment with Data Science at home. Since we are still dealing with our hosting service, consider the first episode purely experimental, even though the content might be of your interest, no matter what.]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/di37ty/datascience_predictions_2016.mp3" length="14043029" type="audio/mpeg"/>
+				<itunes:subtitle>It’s time to experiment with Data Science at home. Since we are still dealing with our hosting service, consider the first episode purely experimental, even ...</itunes:subtitle>
+		<itunes:summary><![CDATA[It’s time to experiment with Data Science at home. Since we are still dealing with our hosting service, consider the first episode purely experimental, even though the content might be of your interest, no matter what.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:19:30</itunes:duration>
+		</item>
+		<item>
+		<title>BigData on your desk</title>
+		<link>http://datascienceathome.podbean.com/e/bigdata-on-your-desk/</link>
+		<comments>http://datascienceathome.podbean.com/e/bigdata-on-your-desk/#comments</comments>
+		<pubDate>Thu, 23 Jul 2015 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/bigdata-on-your-desk/</guid>
+
+		<description><![CDATA[<p>Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.
+</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/uyrzrb/datascience_episode13_bigboards.mp3" length="16149723" type="audio/mpeg"/>
+				<itunes:subtitle>Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.</itunes:subtitle>
+		<itunes:summary><![CDATA[Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:16:49</itunes:duration>
+		</item>
+		<item>
+		<title>Networks and Graph Databases</title>
+		<link>http://datascienceathome.podbean.com/e/networks-and-graph-databases/</link>
+		<comments>http://datascienceathome.podbean.com/e/networks-and-graph-databases/#comments</comments>
+		<pubDate>Thu, 23 Jul 2015 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/networks-and-graph-databases/</guid>
+
+		<description><![CDATA[<p>Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.
+</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/iz2fge/datascience_episode12_networks.mp3" length="21910822" type="audio/mpeg"/>
+				<itunes:subtitle>Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.</itunes:subtitle>
+		<itunes:summary><![CDATA[Have you ever thought to get a Big Data infrastructure on your desk? That’s right! On your desk.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:22:49</itunes:duration>
+		</item>
+		<item>
+		<title>Data Science and Bio-Inspired Algorithms</title>
+		<link>http://datascienceathome.podbean.com/e/data-science-and-bio-inspired-algorithms/</link>
+		<comments>http://datascienceathome.podbean.com/e/data-science-and-bio-inspired-algorithms/#comments</comments>
+		<pubDate>Wed, 08 Jul 2015 07:00:00 -0400</pubDate>
+		<dc:creator>datascienceathome</dc:creator>
+		
+	<category>data science</category>
+		<guid isPermaLink="false">http://datascienceathome.podbean.com/e/data-science-and-bio-inspired-algorithms/</guid>
+
+		<description><![CDATA[<p>In this episode I meet Dr Eliseo Ferrante, formerly at the University of Leuven, currently researcher at the Université de Technologie de Compiègne, who studies self-organization and evolution.
+</p>
+]]></description>
+	<!-- 		<content:encoded><![CDATA[]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
+	 -->
+
+	<content:encoded><![CDATA[In this episode I meet Dr Eliseo Ferrante, formerly at the University of Leuven, currently researcher at the Université de Technologie de Compiègne, who studies self-organization and evolution.]]></content:encoded>
+			<enclosure url="http://datascienceathome.podbean.com/mf/feed/4xqhv8/datascience_episode14_swarm_intelligence.mp3" length="14238345" type="audio/mpeg"/>
+				<itunes:subtitle>In this episode I meet Dr Eliseo Ferrante, formerly at the University of Leuven, currently researcher at the Université de Technologie de Compiègne, who studies ...</itunes:subtitle>
+		<itunes:summary><![CDATA[In this episode I meet Dr Eliseo Ferrante, formerly at the University of Leuven, currently researcher at the Université de Technologie de Compiègne, who studies self-organization and evolution.]]></itunes:summary>
+				<itunes:author>Francesco Gadaleta</itunes:author>
+		<itunes:explicit>Clean</itunes:explicit>
+		<itunes:block>No</itunes:block>
+		<itunes:duration>00:14:49</itunes:duration>
+		</item>
+	</channel>
+</rss>
