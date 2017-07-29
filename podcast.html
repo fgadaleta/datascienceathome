@@ -95,8 +95,9 @@ description: "Data science for everyone. From home."
           bottom: 0;
           left: 0;
           background-color: #121212;
-          opacity: 93%;
-          transition: height 0.25s linear ease-in-out;
+          opacity: 0.93;
+          transition: height 0.25s linear;
+          visibility: hidden;
        }
 
        #cover{
@@ -117,22 +118,34 @@ description: "Data science for everyone. From home."
        }
 
        #closepodcast{
-         position: relative;
-    /* left: 130px; */
-    color: #777;
+         background: url(../build/images/minimize.png);
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
     font-family: sans-serif;
     font-size: 15px;
     float: right;
-    margin-right: 5px;
-    background: black;
+    margin-right: 2px;
+    margin-top: 2px;
+    /* background: black; */
     background-size: cover;
-
        }
 
        #openpodcast{
-         //background: url(./images/maximize-icon.png) no-repeat;
-        height: 24px;
-        width: 24px;
+        background: url(../build/images/maximize.png);
+        height: 25px;
+        width: 25px;
+        border: none;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        //height: 24px;
+        //width: 24px;
         /* -webkit-background-size: cover; */
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -236,29 +249,40 @@ description: "Data science for everyone. From home."
 
 <script type="text/javascript">
 
+function fadeloop(el,timeout,timein,loop){
+    var $el = $(el),intId,fn = function(){
+         $el.fadeOut(timeout).fadeIn(timein);
+    };
+    fn();
+    if(loop){
+        intId = setInterval(fn,timeout+timein+100);
+        return intId;
+    }
+    return false;
+}
+
 function setAudioTrack(title_source){
   var track_info = title_source.split(',');
   var title  = track_info[0];
   var source = track_info[1];
   var pButton = document.getElementById('pButton'); // play buttons
-  console.log(playbtn);
-
+  //console.log(playbtn);
   var music = document.getElementById('music');
   var sourcetrack = document.getElementById('sourcetrack');
-
   sourcetrack.src = String(source);
   music.load(); //call this to just preload the audio without playing
-
   pButton.className = "";
   pButton.className = "pause";
-
   // set track info
   var episode_title = document.getElementById('episode_title');
   console.log(episode_title);
   episode_title.innerHTML = title;
   music.play(); //call this to play the song right away
-}
+  // set the player visible
+  $('#the-player').css('visibility','visible');
+  fadeloop('#openpodcast',500,500,false);
 
+}
 </script>
 
 
@@ -332,7 +356,7 @@ function setAudioTrack(title_source){
 
 <!-- footer-player here! -->
 <div id="footer-player">
-<div id='openpodcast'>+</div>
+<div id='openpodcast'></div>
 <div id='the-player'>
 
 <audio id="music" preload="false">
@@ -354,10 +378,10 @@ function setAudioTrack(title_source){
     </div>
     <div id="timeline">
       <div id="playhead"></div>
-      <div class='duration'>03:15</div>
+      <div class='duration'><!--03:15--></div>
     </div>
 
-    <div id='closepodcast'>X</div>
+    <div id='closepodcast'></div>
 
   </div>
 </div>
@@ -408,11 +432,14 @@ $('#closepodcast').click(function() {
   $("#the-player").slideToggle();
   setTimeout(function () {
             $("#openpodcast").show();
+            fadeloop('#openpodcast',500,500,false);
         }, 200);
+
 });
 
 $('#openpodcast').click(function() {
   $("#the-player").slideToggle();
+  fadeloop('#openpodcast',500,500,false);
 });
 
 
