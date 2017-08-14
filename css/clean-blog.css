@@ -27,7 +27,7 @@ h6 {
 }
 
 .h2, h2 {
-    font-size: 35px;
+    font-size: 42px;
 }
 
 a {
@@ -51,6 +51,29 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+
+.logo-light {
+    background-image: url(../img/logo_light.png);
+    width: 150px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: 150px 42px;
+    position: absolute;
+    top: 5px;
+}
+
+.logo-dark {
+    background-image: url(../img/logo_dark.png);
+    width: 150px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: 150px 42px;
+    position: absolute;
+    top: 5px;
+}
+
+
+
 .navbar-custom {
   background: white;
   position: absolute;
@@ -172,7 +195,7 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;

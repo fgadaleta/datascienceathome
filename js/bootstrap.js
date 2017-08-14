@@ -1978,6 +1978,8 @@ if (typeof jQuery === 'undefined') {
 
     this.clear()
 
+    console.log('ma fack');
+      
     var selector = this.selector +
       '[data-target="' + target + '"],' +
       this.selector + '[href="' + target + '"]'

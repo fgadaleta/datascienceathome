@@ -1030,9 +1030,14 @@ $(function() {
 // Navigation Scripts to Show Header on Scroll-Up
 jQuery(document).ready(function($) {
     var MQL = 1170;
-
+    console.log('oioi here');
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
+	// FG
+	$('.logo').addClass('logo-dark');
+	$('.logo').removeClass('logo-light');
+	console.log('iam here');
+	
         var headerHeight = $('.navbar-custom').height();
         $(window).on('scroll', {
                 previousTop: 0
@@ -1043,7 +1048,7 @@ jQuery(document).ready(function($) {
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-visible');
+                        $('.navbar-custom').addClass('is-visible');			  
                     } else {
                         $('.navbar-custom').removeClass('is-visible is-fixed');
                     }
