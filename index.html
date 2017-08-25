@@ -12,7 +12,7 @@ description: "Machine learning and artificial intelligence for everyone"
         <h3 class="post-subtitle e-content">{{ post.subtitle }}</h3>
         {% endif %}
     </a>
-    <p class="post-meta p-author h-card dt-published">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta p-author h-card">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on <div class="dt-published"> {{ post.date | date: "%B %-d, %Y" }} </div></p>
 </div>
 <hr>
 {% endfor %}
