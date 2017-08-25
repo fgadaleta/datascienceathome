@@ -5,14 +5,14 @@ description: "Machine learning and artificial intelligence for everyone"
 
 {% for post in paginator.posts %}
 <div class="post-preview h-entry">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">{{ post.title }}
+    <a class="u-url" href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title p-name">{{ post.title }}
         </h2>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        <h3 class="post-subtitle e-content">{{ post.subtitle }}</h3>
         {% endif %}
     </a>
-    <p class="post-meta p-author h-card">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta p-author h-card dt-published">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
