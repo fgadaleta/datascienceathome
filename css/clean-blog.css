@@ -72,7 +72,37 @@ hr.small {
     top: 5px;
 }
 
+.sharing {
+  border-top: 8px solid #999;
+    position: sticky;
+    top: 150px;
+    max-width: 120px;
+  }
 
+.sharing_title{
+  color: rgb(72, 72, 72);
+    -webkit-transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+    transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+    word-break: break-word;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 34px;
+    //border-bottom: 1px solid #999;
+    max-width: 120px;
+}
+
+.social{
+  display: block;
+    /* padding-right: 5px; */
+    /* padding-left: 16px; */
+    border-bottom: 1px solid #999;
+    //width: 100px;
+    margin-left: -16px;
+    line-height: 50px;
+}
 
 .navbar-custom {
   background: white;

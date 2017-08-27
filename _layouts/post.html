@@ -2,10 +2,14 @@
 layout: default
 ---
 
+
+
+
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
+
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <h1>{{ page.title }}</h1>
@@ -15,6 +19,7 @@ layout: default
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
@@ -23,6 +28,41 @@ layout: default
 <article class="h-entry">
     <div class="container">
         <div class="row">
+          <div class="col-lg-8 sharing">
+            <div class="sharing_title">share</div>
+
+            <div class="sharing_buttons" style='font-size:15px; float:left; display:block;'>
+              <ul >
+                <li class='social'>
+                    <a class="facebook-share" data-js="facebook-share">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class='social'>
+                  <a class="twitter-share" data-js="twitter-share">
+                    <!-- href="https://twitter.com/{{ site.twitter_username }}"> -->
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              </li>
+                <li class='social'>
+                  <a class="email-share" data-js="email-share" href="mailto:?subject=Data%20Science%20at%20Home&body=Check%20out%20this%20great%20article%20I%20read%20on%20:%0D%0A%0D%0Ahttps%3A%2F%2Fwww.datascienceathome.com?mbid=email_onsiteshare
+">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              </li>
+              </ul>
+            </div>
+          </div>
+
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 				{{ content }}
@@ -64,3 +104,31 @@ predictive analytics and computer science. <a href='https://promotions.privy.com
 </article>
 
 <hr>
+
+
+
+
+<script>
+var twitterShare = document.querySelector('[data-js="twitter-share"]');
+
+twitterShare.onclick = function(e) {
+  e.preventDefault();
+  //var message = "I found an interesting post " + document.URL;
+  var twitterWindow = window.open('https://twitter.com/share?url=' + document.URL, 'twitter-popup', 'height=350,width=600');
+  //var twitterWindow = window.open('https://twitter.com/share?status=' + message, 'twitter-popup', 'height=350,width=600');
+
+  if(twitterWindow.focus) { twitterWindow.focus(); }
+    return false;
+  }
+
+var facebookShare = document.querySelector('[data-js="facebook-share"]');
+
+facebookShare.onclick = function(e) {
+  e.preventDefault();
+  var facebookWindow = window.open('https://www.facebook.com/sharer/sharer.php?u=' + document.URL, 'facebook-popup', 'height=350,width=600');
+  if(facebookWindow.focus) { facebookWindow.focus(); }
+    return false;
+}
+
+
+</script>
