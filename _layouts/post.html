@@ -60,6 +60,15 @@ layout: default
                 </a>
               </li>
 
+              <li class='social'>
+                <a class="google-share" data-js="google-share">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+              </li>
+
                 <li class='social'>
                   <a class="email-share" data-js="email-share" href="mailto:?subject=Data%20Science%20at%20Home&body=Check%20out%20this%20great%20article%20I%20read%20on%20:%0D%0A%0D%0Ahttps%3A%2F%2Fwww.datascienceathome.com?mbid=email_onsiteshare
 ">
@@ -145,10 +154,19 @@ var linkedinShare = document.querySelector('[data-js="linkedin-share"]');
 linkedinShare.onclick = function(e) {
   e.preventDefault();
   //https://www.linkedin.com/shareArticle?mini=true&url=datascienceathome.com&title=&summary=&source=
-  var linkedinWindow = window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + document.URL, 'facebook-popup', 'height=350,width=600');
+  var linkedinWindow = window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + document.URL, 'linkedin-popup', 'height=350,width=600');
   if(linkedinWindow.focus) { linkedinWindow.focus(); }
     return false;
 }
 
+var googleShare = document.querySelector('[data-js="google-share"]');
+
+googleShare.onclick = function(e) {
+  e.preventDefault();
+
+var googleWindow = window.open('https://plus.google.com/share?url=' + document.URL, 'google-popup', 'height=350,width=600');
+  if(googleWindow.focus) { googleWindow.focus(); }
+    return false;
+}
 
 </script>
