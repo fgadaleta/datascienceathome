@@ -94,6 +94,15 @@ hr.small {
     max-width: 120px;
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+.sharing {
+  visibility: hidden;
+}
+}
+
+
 .social{
   display: block;
     /* padding-right: 5px; */
