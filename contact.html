@@ -6,14 +6,14 @@ header-img: "img/contact-bg.jpg"
 ---
 
 <p>
-Got a question or an idea about the next podcast episode you would love to listen to? Would you like to become a sponsor? Don't hesitate to drop a line and ask. I will love to connect with you. 
+Got a question or an idea about the next podcast episode you would love to listen to? Would you like to become a sponsor? Don't hesitate to drop a line and ask. I will love to connect with you.
 </p>
 
 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 
-<form action="https://formspree.io/francesco.gadaleta@gmail.com" method="POST">
+<form action="http://formspree.io/francesco.gadaleta@gmail.com" method="POST">
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
@@ -25,6 +25,8 @@ Got a question or an idea about the next podcast episode you would love to liste
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Email Address</label>
             <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input type="hidden" name="_format" value="plain" />
             <p class="help-block text-danger"></p>
         </div>
     </div>
@@ -42,7 +44,7 @@ Got a question or an idea about the next podcast episode you would love to liste
     <div class="row">
         <div class="form-group col-xs-12 text-center">
             <button type="submit" class="btn btn-success btn-lg">Send</button>
-        </div>
+	</div>
     </div>
 </form>
 
