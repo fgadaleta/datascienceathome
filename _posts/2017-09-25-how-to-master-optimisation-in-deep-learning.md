@@ -15,7 +15,7 @@ tags:
 
 
 <hr>
-## Introduction
+### Introduction
 The secret  behind deep learning is not really a secret. It is *function optimisation*. 
 What a neural network does, is optimising a function. For instance, let’s take the image classifier example. A network is fed with an image and a label. What the network actually does during training is setting a high number of parameters such that given a similar image, it will return a similar label (or actually the same label). So where’s the optimisation?
 Optimisation means minimising or maximising a function. In this case, the function is the difference between the predicted value and the true value. This function is usually referred to as the loss function. 
@@ -67,7 +67,7 @@ Adadelta solves the issue of Adagrad with the gradient clipping feature that res
 This method calculates adaptive learning rates for each parameter. Adam keeps an exponentially decaying average of past squared gradients and of past gradients too in a similar fashion to momentum. 
 These too averages are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively. In the original paper, the authors empirically show that Adam convergences as expected from the theoretical analysis. Indeed the authors applied Adam optimizer to the logistic regression algorithm on the MNIST character recognition and IMDB sentiment analysis datasets, a Multilayer Perceptron algorithm on the MNIST dataset and Convolutional Neural Networks on the CIFAR-10 image recognition dataset. 
 
-## Which optimizer should you choose?
+### Which optimizer should you choose?
 While this is not meant to be a post that exhaustively explores all the aspects of function minimization for deep learning, there are some fundamental guidelines that should be consider to improve the accuracy of a deep learning model and definitely increase the speed of convergence. 
 If input data is sparse, one should consider one of the adaptive learning-rate methods. As a consequence it will not be necessary to tune the learning rate to achieve the best results with the default value.
 
