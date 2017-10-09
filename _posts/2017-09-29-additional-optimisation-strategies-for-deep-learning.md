@@ -50,7 +50,8 @@ It seems that we cannot escape this fundamental problem between changing paramet
 This phenomenon is even more emphasised with saturating nonlinearities across layers in deep networks. It has been shown how, by initialising values of parameters with zero mean and unit variance (which goes under the name of *normalisation*) and by updating them as training progresses for every mini-batch, and then back-propagating them too, it is possible to use higher learning rates, and to pay less attention to the initial values of the parameters. This not only makes learning more robust but also speeds up the training as higher learning rates need less iterations to converge to a minimum. Moreover, batch normalisation acts as a regulariser, requiring less dropout and discouraging overfitting.
 
 ### References
-```Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift Sergey Ioffe, Christian Szegedy https://arxiv.org/abs/1502.03167```
+```Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift Sergey Ioffe, Christian Szegedy 
+https://arxiv.org/abs/1502.03167 ```
 
 Now let’s focus on another method the mitigates the problem of overfitting and is referred to as **Early Stopping**.
 
@@ -65,7 +66,8 @@ This improvement makes a lot more sense for high dimensional problems and very d
 More details can be read from their paper published in 2015 with title *Adding Gradient Noise Improves Learning for Very Deep Networks.* 
 
 ### Reference
-```Neelakantan, A., Vilnis, L., Le, Q. V., Sutskever, I., Kaiser, L., Kurach, K., & Martens, J. (2015). Adding Gradient Noise Improves Learning for Very Deep Networks, 1–11. Retrieved from http://arxiv.org/abs/1511.06807```
+```Neelakantan, A., Vilnis, L., Le, Q. V., Sutskever, I., Kaiser, L., Kurach, K., & Martens, J. (2015). Adding Gradient Noise Improves Learning for Very Deep Networks, 1–11. 
+Retrieved from http://arxiv.org/abs/1511.06807```
 
 That’s all for today. 
 With this post you should know a bit more about optimisation strategies for deep learning. 
