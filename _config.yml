@@ -1,35 +1,36 @@
-# Site settings
 title: Data Science at Home
 header-img: img/home-bg.jpg
 email: francesco.gadaleta@gmail.com
 copyright_name: datascienceathome.com
-description: "Machine learning and artificial intelligence for everyone"
-baseurl: ""
-subscribeurl: "http://datascienceathome.us9.list-manage1.com/subscribe?u=7df5a060600c0903bedb640c9&id=f350090860"
-podcasturl: http://podcast.datascienceathome.com
-url: http://datascienceathome.com
+description: A sober view of AI
+baseurl: ''
+subscribeurl: >-
+  http://datascienceathome.us9.list-manage1.com/subscribe?u=7df5a060600c0903bedb640c9&id=f350090860
+podcasturl: 'http://podcast.datascienceathome.com'
+url: 'http://datascienceathome.com'
 twitter_username: thisisfrag
-github_username:  worldofpiggy
-facebook_username:  datascienceathome
-email_username:  francesco.gadaleta@gmail.com
+github_username: fgadaleta
+facebook_username: datascienceathome
+email_username: francesco.gadaleta@gmail.com
 author: Francesco Gadaleta
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
 google_tracking_id: UA-37903879-3
-
 disqus: datascienceathome
-
 webserver_headers:
   - - Access-Control-Allow-Origin
-    - "*"
+    - '*'
   - - Access-Control-Allow-Methods
-    - GET, OPTIONS, HEAD
-
-# Build settings
+    - 'GET, OPTIONS, HEAD'
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 6
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-plugins: [jekyll-paginate, jekyll-feed, jekyll-admin]
+exclude:
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-admin
