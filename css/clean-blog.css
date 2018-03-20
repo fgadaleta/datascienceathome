@@ -5,10 +5,15 @@
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lato', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
 }
+
+.archive-post-list {
+ font-size : 15px;
+}
+
 p {
   line-height: 1.5;
   margin: 30px 0;
