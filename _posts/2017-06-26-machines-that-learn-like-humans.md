@@ -3,9 +3,10 @@ title: Machines that learn like humans
 layout: post
 subtitle: Podcast episode with Google software engineer Brett Zhiyuan
 comments: true
+summary: "In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn...well... like machines. I had a very interesting conversation with Brett Zhiyuan Chen, software engineer at Google"
 ---
 
-In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn…well… like machines. 
+In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn…well… like machines.
 I had a very interesting conversation with Brett Zhiyuan Chen, software engineer at Google and co-author of an amazing book titled Lifelong Machine Learning.  Listen to the podcast episode [here](https://www.podbean.com/media/share/pb-7yche-6b8d9e).
 
 

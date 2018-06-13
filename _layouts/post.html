@@ -6,6 +6,7 @@ layout: default
 
 
 <!-- Post Header -->
+<!--
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
@@ -23,6 +24,8 @@ layout: default
         </div>
     </div>
 </header>
+-->
+
 
 <!-- Post Content -->
 <article class="h-entry">
@@ -30,7 +33,6 @@ layout: default
         <div class="row">
           <div class="col-lg-8 sharing">
             <div class="sharing_title">share</div>
-
             <div class="sharing_buttons" style='font-size:15px; float:left; display:block;'>
               <ul>
                 <li class='social'>
@@ -83,6 +85,16 @@ layout: default
           </div>
 
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <header class="post-title">
+                <div class="post-heading">
+                    <h3>{{ page.title }}</h3>
+                    {% if page.subtitle %}
+                    <h3 class="subheading">{{ page.subtitle }}</h3>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+              </header>
+
 
 				{{ content }}
 

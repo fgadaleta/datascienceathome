@@ -12,6 +12,7 @@ tags:
 comments: true
 type: post
 subtitle: How a neural network cleans podcast episodes
+summary: "Let me introduce the ahem detector, a deep convolutional neural network that is trained on transformed audio signals to recognize ahem sounds."
 ---
 
 Do you know why you can't hear the ugly *ahem* sounds on the podcast [Data Science at Home](http://worldofpiggy.com/podcast)?

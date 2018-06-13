@@ -1,6 +1,8 @@
 ---
 title: "(Long Story Short) Productivity in a hyperconnected world"
 layout: post
+summary: "If you think that Slack, Messanger, WhatsApp, Telegram, Emails, etc. are doing good to you, it's time to watch this."
+comments: true
 ---
 
 If you think that Slack, Messanger, WhatsApp, Telegram, Emails, etc. are doing good to you, it's time to watch this. Apologies for the interruption ;)

@@ -4,6 +4,22 @@
  * Licensed under MIT (https://spdx.org/licenses/MIT)
  */
 
+container {
+     width: 970px;
+   }
+
+   .button {
+       display: inline-block;
+       font-weight: 500;
+       color: #a5a5a5;
+       padding: 0 20px;
+       border-radius: 18px;
+       height: 36px;
+       line-height: 36px;
+       border: 1px solid #e2e2e2;
+       font-size: 15px;
+   }
+
 body {
   font-family: 'Lato', 'Times New Roman', serif;
   font-size: 20px;
@@ -11,7 +27,7 @@ body {
 }
 
 .archive-post-list {
- font-size : 15px;
+ font-size : 18px;
 }
 
 p {
@@ -26,13 +42,23 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6  {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+  color: #434343;
 }
 
 .h2, h2 {
     font-size: 42px;
+}
+
+h4 span {
+    color: #0085a1;
+}
+ul li a {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 a {
@@ -127,6 +153,26 @@ and (max-device-width : 568px) {
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.navbar-custom-dark {
+  background: white;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+navbar-default .navbar-brand {
+    color: #4b4b4b;
+}
+
+.navbar-nav li {
+  padding-top: 10px;
+}
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
@@ -143,7 +189,7 @@ and (max-device-width : 568px) {
   }
   .navbar-custom .navbar-brand {
     color: white;
-    padding: 20px;
+    padding: 10px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -151,7 +197,7 @@ and (max-device-width : 568px) {
   }
   .navbar-custom .nav li a {
     color: white;
-    padding: 20px;
+    padding: 10px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
@@ -215,6 +261,26 @@ and (max-device-width : 568px) {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+
+.post-title {
+  background: no-repeat center center;
+  background-color: #ffffff;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  color: #434343;
+}
+.post-title h3{
+  font-weight: 800;
+  font-size: 32px;
+  color: #434343;
+
+}
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {

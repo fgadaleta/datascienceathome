@@ -10,6 +10,7 @@ tags:
 comments: true
 type: post
 subtitle: Why blockchain technology will disrupt the world and how
+summary: "In the aftermath of the explosion of cryptocurrency Ethereum (from $65 to $100, then $150 and higher), I feel the urge of sharing my thoughts and trying to make sense of what is happening."
 ---
 
 In the aftermath of the explosion of cryptocurrency Ethereum (from $65 to $100, then $150 and higher), I feel the urge of sharing my thoughts and trying to make sense of what is happening.

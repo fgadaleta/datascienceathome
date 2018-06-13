@@ -1,6 +1,8 @@
 ---
 title: "(Long Story Short) Encrypt your Gmail"
+summary: "Gmail is great. Until they tell you that Google can read all your emails anytime they want. What if you needed confidentiality and your Gmail too?"
 layout: post
+comments: true
 ---
 
 Gmail is great. Until they tell you that Google can read all your emails anytime they want. What if you needed confidentiality and your Gmail too?
