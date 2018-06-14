@@ -4,6 +4,9 @@ title: What data analytics pipelines should have
 tags: [analytics, bigdata, data, engineering, feature, pipeline, visualization]
 comments: true
 type: post
+summary: "Big data analytics not only means crunching algorithms over high dimensional
+data for weeks. It also means preparing the data to get processes with more or
+less standard tools." 
 ---
 
 Big data analytics not only means crunching algorithms over high dimensional
@@ -28,7 +31,7 @@ realistic and clear hypothesis is the equivalent of a well-posed problem. Many
 managers, investigators, or wannabe bosses fail miserably at this stage,
 thinking about some magic in big data that will eventually clarify things
 later. Usually this attitude leads to wasting time for the boss and for the
-data scientist. 
+data scientist.
 
 ### Step 1: data wrangling (also referred to as carpentry or cleaning)
 
@@ -66,7 +69,7 @@ machine learning algorithm might have better performance on a reduced dataset.
 The only limitation of dimensionality reduction is the lossy nature of the
 compression. Sometimes important aspect of data can be loss during this step.
 While sparsity and regularization procedures can deal with number of
-parameters higher than number of observations, they should be used with care. 
+parameters higher than number of observations, they should be used with care.
 
 
 ### Step 4a: feature engineering
@@ -77,7 +80,7 @@ consists in selecting features that might contain information or create new
 features from existing ones in order to capture non-linearity or higher order
 interactions within the data. As a matter of fact, a well engineered dataset
 analysed by a very simple linear regression model can reveal much more
-insights than a raw dataset analysed with a fancy complex model. 
+insights than a raw dataset analysed with a fancy complex model.
 
 ### Step 4b: automatic feature engineering
 
@@ -91,7 +94,7 @@ language processing, due to the hierarchy of concept representation. Pixels
 are grouped to represent lines and points that in turn represent shapes, that
 represent objects that represent a scenario, that can finally be understood
 and described. Similarly, characters form words that form phrases that
-represent concepts that can analysed, and understood by machines. 
+represent concepts that can analysed, and understood by machines.
 
 ### Step 5: state of the art machine learning
 
@@ -102,4 +105,3 @@ estimate the structure of the dataset at hand. This step is problem specific,
 but after the previous operations, any algorithm should perform better here.
 
 Happy analytics!
-

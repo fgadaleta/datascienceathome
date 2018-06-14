@@ -3,6 +3,7 @@ layout: post
 title: Animal cooperation explained by robots
 tags: [artificial-intelligence, bioinspired, evolution, robot, self-organization]
 comments: true
+summary: "Will robots help us take over other planets? Not quite yet, but this is the message you get..."
 ---
 
 <iframe src="https://www.youtube.com/embed/teRFP3FshDE" frameborder="0" allowfullscreen></iframe>
@@ -45,4 +46,3 @@ simplifying/sacryficing the robotics part.
 
 The robot, ehm... the man behind all this is scientist (and friend) Dr. Eliseo
 Ferrante.
-

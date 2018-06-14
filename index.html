@@ -15,8 +15,11 @@ description: "A sober view of AI"
         <h3 class="post-subtitle e-content">{{ post.summary }}</h3>
         {% endif %}
     </a>
-    <p class="post-meta p-author h-card">Posted by {% if post.author %} <strong>{{ post.author }}</strong>{% else %} <strong>{{ site.author }}</strong>{% endif %} on
-      {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta p-author h-card">Posted
+      <!-- by {% if post.author %}
+      <strong>{{ post.author }}</strong>{% else %}
+      <strong>{{ site.author }}</strong>{% endif %} -->
+      on {{ post.date | date: "%B %-d, %Y" }}
     </p>
     <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read more</a>
     <div class="dt-published"> </div>
