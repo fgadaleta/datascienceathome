@@ -1,7 +1,9 @@
 ---
 title: Parallelizing and distributing Stochastic Gradient Descent
 layout: post
-summary: "Continuing the discussion of the last two episodes, there is one more aspect of deep learning that I would love to consider and therefore left as a full episode, that is parallelising and distributing deep learning on relatively large clusters. "
+summary: Continuing the discussion of the last two episodes, there is one more aspect
+  of deep learning that I would love to consider and therefore left as a full episode,
+  that is parallelising and distributing deep learning on relatively large clusters.
 comments: true
 ---
 
@@ -71,13 +73,16 @@ On startup, TensorFlow tries to allocate all available GPU memory for itself. An
 
 ##### Heterogeneous resource utilization adds complexity.
 Wheneven you try to optimise and squeeze the hardware to your needs you need to have control on heterogeneous operations manually. For instance, having a multi thread application that fetches and pre-process data and then feeds the GPU, would be extremely helpful because the GPU would not be waiting on such pre-processing operations. However, the level of complexity to manage this scenario is higher.
+
 ##### Documentation can be inconsistent.
 I personally found a lot of inconsistencies between new functionality and docs/tutorials explaining how to build stuff. This in turn made me frustrated and made my learning curve steeper than expected. There are a lot of tutorials and interesting books to start. But several time it happened that they became obsolete quite quickly.
+
 ##### By default, Theano and TensorFlow can conflict.
 If you are like me, coding with Theano or have a lot of code that depends on it, from loading data to various utility functions, be aware that Theano and TensorFlow are not good friends. Indeed if you import Theano and TensorFlow in the same scope, they will compete to allocate GPU memory and bad unpredictable things might happen.
 
 #### Reference
 ```Original architecture paper https://arxiv.org/abs/1603.04467 Website http://www.tensorflow.org```
+
 
 
 ### Conclusion
