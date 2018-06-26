@@ -3,6 +3,39 @@
  * Copyright 2015 Start Bootstrap
  * Licensed under MIT (https://spdx.org/licenses/MIT)
  */
+.services-inner{
+  background: #fafafa;
+  font-size: 0.75em;
+  margin-top: 42px;
+  border: 1px solid #d7d9d9;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  max-height: 300px;
+}
+
+.img-inline {
+  display: inline;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-item{
+  align-items: center;
+margin-bottom: 40px;
+min-height: 40px;
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+position: relative;
+}
+
 
 container {
      width: 970px;
@@ -483,6 +516,18 @@ form .row:first-child .floating-label-form-group {
   border: 1px solid #0085a1;
   color: white;
 }
+
+.btn-success {
+    color: #fff;
+    background-color: #0085a1;
+    border: no-border;
+  }
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #3c8290;
+}
+
 .pager {
   margin: 20px 0 0;
 }

@@ -2,7 +2,7 @@ title: Data Science at Home
 header-img: img/home-bg.jpg
 email: francesco.gadaleta@gmail.com
 copyright_name: datascienceathome.com
-description: A sober view of AI
+description: Technology, machine learning and algorithms
 baseurl: ''
 subscribeurl: >-
   http://datascienceathome.us9.list-manage1.com/subscribe?u=7df5a060600c0903bedb640c9&id=f350090860
@@ -34,3 +34,4 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-admin
+  - jekyll-seo-tag
