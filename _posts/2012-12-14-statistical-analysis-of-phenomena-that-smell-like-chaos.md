@@ -1,14 +1,25 @@
 ---
-layout: post
 title: Statistical analysis of phenomena that smell like chaos
+layout: post
 comments: true
-tags: [catastrophe, chaos-theory, economy, prediction-method, predictions, science, statistics, stock]
+tags:
+- catastrophe
+- chaos-theory
+- economy
+- prediction-method
+- predictions
+- science
+- statistics
+- stock
 ---
 
 <center>
 <img src='/img/img_posts/ordered_chaos.png' />
 </center>
 
+<iframe src="https://www.podbean.com/media/player/jntkf-6b8da1?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Verdana&auto=1&download=0&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
+
+<br />
 
 > Is the market really predictable? How do stock prices increase? What is their dynamics? 
 
@@ -134,4 +145,3 @@ Provided that the market can be predicted - and there are already serious doubts
 - mathematical statistics might not be sufficiently powerful for this purpose.
 
 (oo)
-

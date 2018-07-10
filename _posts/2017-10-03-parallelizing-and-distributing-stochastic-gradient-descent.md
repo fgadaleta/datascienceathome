@@ -7,6 +7,9 @@ summary: Continuing the discussion of the last two episodes, there is one more a
 comments: true
 ---
 
+<iframe src="https://www.podbean.com/media/player/sytfj-74c54a?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Verdana&auto=1&download=0&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
+<br />
+
 Continuing the discussion of the last two episodes, there is one more aspect of deep learning that I would love to consider and therefore left as a full episode, that is parallelising and distributing deep learning on relatively large clusters.
 As a matter of fact, computing architectures are changing in a way that is encouraging parallelism more than ever before. And deep learning is no exception and despite the greatest improvements with commodity GPUs - graphical processing units, when it comes to speed, there is still room for improvement.
 Together with the last two episodes, this one completes the picture of deep learning at scale. Indeed, as I mentioned in the previous episode, How to master optimisation in deep learning, the function optimizer is the horsepower of deep learning and neural networks in general. A slow and inaccurate optimisation method leads to networks that slowly converge to unreliable results.

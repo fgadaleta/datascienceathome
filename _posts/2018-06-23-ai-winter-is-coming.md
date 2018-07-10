@@ -9,8 +9,8 @@ summary: Hype around AI can be extremely dangerous, because it raises expectatio
 comments: true
 ---
 
-#### Read the interview or listen to the [podcast episode](https://datascienceathome.podbean.com/e/get-ready-for-ai-winter/)
----
+<iframe src="https://www.podbean.com/media/player/m86i9-94c697?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Verdana&auto=1&download=1&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
+
 
 In this episode I have a conversation with Filip Piękniewski, researcher working on computer vision and AI at Koh Young Research America.
 His adventure with AI started in the 90s and since then a long list of experiences at the intersection of computer science and physics, led him to the conclusion that *deep learning might not be sufficient nor appropriate to solve the problem of intelligence*, specifically artificial intelligence. I read some of his publications and got familiar with some of his ideas. Honestly, I have been attracted by the fact that Filip does not buy the hype around AI and deep learning in particular.

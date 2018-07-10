@@ -3,13 +3,18 @@ title: Machines that learn like humans
 layout: post
 subtitle: Podcast episode with Google software engineer Brett Zhiyuan
 comments: true
-summary: "In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn...well... like machines. I had a very interesting conversation with Brett Zhiyuan Chen, software engineer at Google"
+summary: In the era of Artificial Intelligence and Deep Learning, we are dealing with
+  machines that learn...well... like machines. I had a very interesting conversation
+  with Brett Zhiyuan Chen, software engineer at Google
 ---
 
 In the era of Artificial Intelligence and Deep Learning, we are dealing with machines that learn…well… like machines.
-I had a very interesting conversation with Brett Zhiyuan Chen, software engineer at Google and co-author of an amazing book titled Lifelong Machine Learning.  Listen to the podcast episode [here](https://www.podbean.com/media/share/pb-7yche-6b8d9e).
+I had a very interesting conversation with Brett Zhiyuan Chen, software engineer at Google and co-author of an amazing book titled Lifelong Machine Learning.  Listen to the podcast episode.
+
+<iframe src="https://www.podbean.com/media/player/7yche-6b8d9e?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Verdana&auto=1&download=0&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
 
 
+<br />
 **Francesco**: Hi Brett, thanks for being here. How are you? Can you give a brief introduction of who you are and what do you do?
 
 **Brett**: Thanks Francesco! Hello, everyone, my name is Brett Zhiyuan Chen. My background lies in Machine Learning, Natural Language Processing, and Data Mining. I obtained my Ph.D. from University of Illinois at Chicago. My advisor is Professor Bing Liu. My Ph.D. thesis is “Lifelong Machine Learning for Topic Modeling and Classification.” I have published more than 15 full research papers in premier conferences. Together with Professor Bing Liu, I have given three tutorials in Artificial Intelligence, Data Mining and Natural Language Processing conferences. I am currently a software engineer at Google, working on applying Machine Learning to Google products.

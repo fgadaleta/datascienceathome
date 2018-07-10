@@ -1,14 +1,19 @@
 ---
 title: Additional optimisation strategies for deep learning
 layout: post
-summary: "In this episode I would like to continue that conversation about some additional strategies for optimising gradient descent in deep learning and explain some tricks that might come useful when your neural network stops learning"
+summary: In this episode I would like to continue that conversation about some additional
+  strategies for optimising gradient descent in deep learning and explain some tricks
+  that might come useful when your neural network stops learning
 comments: true
 ---
+
+<iframe src="https://www.podbean.com/media/player/p54dv-73d2ee?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Verdana&auto=1&download=0&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
+
+<br />
 
 In the last episode [“How to master optimisation in deep learning”](https://www.podbean.com/media/share/pb-y75qj-700faa) I explained some of the most challenging tasks of deep learning technology together with methodologies and algorithms to improve the speed of convergence of a minimisation method for deep learning.
 I explored the family of **gradient descent methods** - definitely not exhaustively - giving a list of approaches that deep learning researchers are considering for different scenarios. Every method has its own benefits and drawbacks, pretty much depending on the type of data, and data sparsity. However, there is one method that seems to be, at least empirically, the best approach so far.
 Feel free to listen to the [previous episode](https://www.podbean.com/media/share/pb-y75qj-700faa), share it, re-broadcast or just download for your commute.
-
 
 In this episode I would like to continue that conversation about some additional strategies for optimising gradient descent in deep learning and explain some tricks that might come useful when your neural network stops learning from data or when the learning process becomes so slow that it really seems it reached a plateau even by feeding in fresh data.
 Let's start from curriculum learning.

@@ -7,13 +7,18 @@ tags:
 - fail
 - startup
 comments: true
-summary: "Most entrepreneurs and data scientists will tell you how to succeed with artificial intelligence (AI) and machine learning, but very few talk about how to fail with such technologies. While the technology is incredibly powerful — and heavily hyped — there is a plethora of ways to fail with AI." 
+summary: Most entrepreneurs and data scientists will tell you how to succeed with
+  artificial intelligence (AI) and machine learning, but very few talk about how to
+  fail with such technologies. While the technology is incredibly powerful — and heavily
+  hyped — there is a plethora of ways to fail with AI.
 ---
 
 Most entrepreneurs and data scientists will tell you how to succeed with artificial intelligence (AI) and machine learning, but very few talk about how to fail with such technologies. While the technology is incredibly powerful — and heavily hyped — there is a plethora of ways to fail with AI.
 This post summarizes nine creative ways to condemn almost any AI startup to bankruptcy. I focus on data science and machine learning startups, but the lessons on what to avoid can easily be applied to other industries.
 
 <img src="/img/img_posts/graphs.jpg">
+
+<iframe src="https://www.podbean.com/media/player/8xwg3-7b56f6?from=yiiadmin&skin=1&btn-skin=104&share=1&fonts=Helvetica&auto=1&download=0&rtl=0" scrolling="no" data-name="pb-iframe-player" width="100%" height="100" frameborder="0"></iframe>
 
 ## #1 Cut R&D spending to save money
 Artificial intelligence requires heavy investment in cutting-edge research, experimentation, advanced algorithms, and computing infrastructure. Any AI startup hoping to develop useful AI technologies will have to spend a great deal of money on research and development (R&D) in these areas.
